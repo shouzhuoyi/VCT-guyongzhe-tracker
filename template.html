@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #f2f2f2; font-family: sans-serif; }
+        .score-header { display: flex; justify-content: space-between; align-items: center; background: white; padding: 20px; border-bottom: 1px solid #ddd; }
+        .score-large { font-size: 48px; font-weight: bold; }
+        .text-win { color: #52a952; }
+        .vlr-table { border-collapse: collapse; width: 100%; font-size: 13px; background: white; margin-bottom: 24px; table-layout: fixed; }
+        .vlr-table th { color: #7a7a7a; padding: 12px 4px; border-bottom: 1px solid #eee; font-weight: normal; cursor: pointer; user-select: none; transition: background 0.2s; }
+        .vlr-table th:hover { background-color: #f0f0f0; color: #333; font-weight: bold; }
+        .vlr-table td { padding: 8px 4px; border-bottom: 1px solid #eee; text-align: center; overflow: hidden; }
+        .cell-player { text-align: left !important; padding-left: 12px !important; width: 160px; }
+        .cell-stat { width: 55px; }
+        .cell-agents { width: 80px; }
+        .cell-kda { width: 90px; }
+        .tab-btn { padding: 8px 16px; background: #ddd; font-weight: bold; cursor: pointer; border: none; }
+        .tab-btn.active { background: #666; color: white; }
+        .round-box { width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; margin: 1px; background: #eee; }
+        .win-green { background: #52a952 !important; } .win-red { background: #d04e4e !important; }
+    </style>
+</head>
+<body>
+    {{{header}}}
+    <div class="max-w-6xl mx-auto p-4">
+        <div class="flex gap-1 mb-4">{{#each allData}}<button onclick="switchMatch({{id}})" class="tab-btn" id="btn-{{id}}">{{displayTitle}}</button>{{/each}}</div>
+        <div id="content-area"></div>
+    </div>
+    <script>
+        const matchesData = {{{jsonAllData}}};
+        let currentMatchId = 0;
+        let sortState = {}; // Store sort direction: { "matchId-teamIdx": { key: 'rating', dir: 'desc' } }
+
+        function switchMatch(id) {
+            currentMatchId = id;
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('btn-' + id).classList.add('active');
+            renderMatch(id);
+        }
+
+        function sortTable(teamIdx, key) {
+            const data = matchesData.find(m => m.id === currentMatchId);
+            const team = data.teams[teamIdx];
+            
+            // Init sort state for this specific table if not exists
+            const stateKey = currentMatchId + '-' + teamIdx;
+            if (!sortState[stateKey]) sortState[stateKey] = { key: 'rating', dir: 'desc' };
+            
+            // Toggle direction if clicking same key, else reset to desc
+            if (sortState[stateKey].key === key) {
+                sortState[stateKey].dir = sortState[stateKey].dir === 'desc' ? 'asc' : 'desc';
+            } else {
+                sortState[stateKey].key = key;
+                sortState[stateKey].dir = 'desc';
+            }
+
+            const dir = sortState[stateKey].dir === 'desc' ? 1 : -1;
+
+            team.players.sort((a, b) => {
+                let valA = getVal(a, key);
+                let valB = getVal(b, key);
+                
+                // Numeric sort
+                return (valB - valA) * dir;
+            });
+
+            renderMatch(currentMatchId);
+        }
+
+        function getVal(p, key) {
+            // Helper to extract numeric value for sorting
+            if (key === 'kda') return p.stats.k; // Sort by Kills for KDA column
+            if (key === 'name') return 0; // Handled separately if needed, currently string
+            if (typeof p.stats[key] === 'string' && p.stats[key].includes('%')) {
+                return parseFloat(p.stats[key]);
+            }
+            return parseFloat(p.stats[key]);
+        }
+
+        function renderMatch(id) {
+            const data = matchesData.find(m => m.id === id);
+            const s0 = data.isAllMaps ? data.seriesScore[0] : data.teams[0].score;
+            const s1 = data.isAllMaps ? data.seriesScore[1] : data.teams[1].score;
+            const pickText = data.map_pick === true ? '◀ PICK' : (data.map_pick === false ? 'PICK ▶' : '');
+
+            let html = `
+                <div class="score-header mb-4 shadow-sm">
+                    <div class="flex items-center gap-4"><span class="score-large ${s0 > s1 ? 'text-win' : ''}">${s0}</span><div class="font-bold">${data.teams[0].team_name}</div></div>
+                    <div class="text-center"><div class="text-[10px] text-gray-400">${pickText}</div><div class="font-bold text-xl">${data.map}</div></div>
+                    <div class="flex items-center gap-4"><div class="font-bold">${data.teams[1].team_name}</div><span class="score-large max-w-6xl ${s1 > s0 ? 'text-win' : ''}">${s1}</span></div>
+                </div>`;
+
+            if(!data.isAllMaps) {
+                html += `<div class="bg-white p-4 mb-4 shadow-sm">`;
+                data.teams.forEach((team, tIdx) => {
+                    html += `<div class="flex items-center mb-1"><div class="w-24 text-xs font-bold truncate">${team.team_name}</div>`;
+                    for(let i=0; i<24; i++) {
+                        const ev = team.round_history[i] || 'none';
+                        const cls = ev !== 'none' ? (tIdx === 0 ? 'win-red' : 'win-green') : '';
+                        html += `<div class="round-box ${cls} ${i===12?'ml-4':''}">${ev!=='none'?'<img src="./img/events/'+ev+'.webp" class="w-4">':''}</div>`;
+                    }
+                    html += `</div>`;
+                });
+                html += `</div>`;
+            }
+
+            data.teams.forEach((team, tIdx) => {
+                // Determine sort indicator
+                const stateKey = id + '-' + tIdx;
+                const currentSort = sortState[stateKey] || { key: 'rating', dir: 'desc' }; // Default visual state
+                const arrow = currentSort.dir === 'desc' ? '▼' : '▲';
+                const getHeader = (label, key) => `<th onclick="sortTable(${tIdx}, '${key}')" title="Sort by ${label}">${label} ${currentSort.key === key ? arrow : ''}</th>`;
+
+                html += `<table class="vlr-table shadow-sm"><thead><tr>
+                    <th class="cell-player">PLAYER</th>
+                    <th class="cell-agents">AGENTS</th>
+                    ${getHeader('R', 'rating')}
+                    ${getHeader('ACS', 'acs')}
+                    ${getHeader('K', 'k')}
+                    ${getHeader('D', 'd')}
+                    ${getHeader('A', 'a')}
+                    ${getHeader('+/-', 'diff')}
+                    ${getHeader('KAST', 'kast')}
+                    ${getHeader('ADR', 'adr')}
+                    ${getHeader('HS%', 'hs_percent')}
+                    ${getHeader('FK', 'fk')}
+                    ${getHeader('FD', 'fd')}
+                </tr></thead><tbody>`;
+                
+                team.players.forEach(p => {
+                    html += `<tr>
+                        <td class="cell-player"><a href="./players/${p.name}.html" class="text-blue-600 font-bold hover:underline">${p.name}</a></td>
+                        <td class="cell-agents"><div class="flex justify-center gap-1">${p.agents.map(a=>'<img src="./img/agents/'+a+'.png" class="w-5">').join('')}</div></td>
+                        <td class="font-bold">${p.stats.rating}</td>
+                        <td>${p.stats.acs}</td>
+                        <td>${p.stats.k}</td>
+                        <td>${p.stats.d}</td>
+                        <td>${p.stats.a}</td>
+                        <td class="${p.stats.diff>0?'text-green-600':'text-red-600'}">${p.stats.diff}</td>
+                        <td>${p.stats.kast}</td>
+                        <td>${p.stats.adr}</td>
+                        <td>${p.stats.hs_percent}</td>
+                        <td>${p.stats.fk}</td>
+                        <td>${p.stats.fd}</td>
+                    </tr>`;
+                });
+                html += '</tbody></table>';
+            });
+            document.getElementById('content-area').innerHTML = html;
+        }
+        switchMatch(0);
+    </script>
+</body>
+</html>

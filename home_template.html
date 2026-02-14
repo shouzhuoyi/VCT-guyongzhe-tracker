@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <title>VCT GuYongzhe - Home</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body {
+                background: #f2f2f2;
+                font-family: sans-serif;
+            }
+            .match-card {
+                background: white;
+                border-radius: 4px;
+                border: 1px solid #ddd;
+                padding: 20px;
+                margin-bottom: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                transition: box-shadow 0.2s;
+                text-decoration: none;
+                color: inherit;
+            }
+            .match-card:hover {
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                border-color: #ccc;
+            }
+            .team-name {
+                font-weight: bold;
+                font-size: 18px;
+                width: 150px;
+            }
+            .score {
+                font-size: 24px;
+                font-weight: bold;
+                padding: 0 20px;
+            }
+            .vs {
+                color: #999;
+                font-size: 14px;
+                margin: 0 10px;
+            }
+            .date-badge {
+                background: #eee;
+                padding: 4px 8px;
+                border-radius: 4px;
+                font-size: 12px;
+                color: #666;
+                font-weight: bold;
+            }
+            .win {
+                color: #52a952;
+            }
+            .lose {
+                color: #d04e4e;
+            }
+        </style>
+    </head>
+    <body>
+        {{{header}}}
+        <div class="max-w-4xl mx-auto py-12 px-4">
+            <h1
+                class="text-3xl font-bold mb-8 text-gray-800 flex items-center gap-3"
+            >
+                <span class="bg-red-500 text-white px-3 py-1 rounded text-xl"
+                    >LIVE</span
+                >
+                Match Results
+            </h1>
+
+            <div class="space-y-4">
+                {{#each matches}}
+                <a href="{{fileName}}" class="match-card">
+                    <div class="flex items-center gap-4">
+                        <div class="date-badge">{{date}}</div>
+                        <div class="text-sm text-gray-500">
+                            {{mapCount}} Maps
+                        </div>
+                    </div>
+
+                    <div class="flex items-center">
+                        <div
+                            class="team-name text-right {{#if (isWinner teamA)}}win{{/if}}"
+                        >
+                            {{teamA.name}}
+                        </div>
+                        <div class="score {{#if (isWinner teamA)}}win{{/if}}">
+                            {{teamA.score}}
+                        </div>
+                        <span class="vs">:</span>
+                        <div class="score {{#if (isWinner teamB)}}win{{/if}}">
+                            {{teamB.score}}
+                        </div>
+                        <div
+                            class="team-name text-left {{#if (isWinner teamB)}}win{{/if}}"
+                        >
+                            {{teamB.name}}
+                        </div>
+                    </div>
+
+                    <div class="text-blue-600 font-bold text-sm">
+                        View Details →
+                    </div>
+                </a>
+                {{/each}}
+            </div>
+        </div>
+    </body>
+</html>

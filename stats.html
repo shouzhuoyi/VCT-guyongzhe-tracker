@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>VCT Tracker - Player Stats</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #f2f2f2; font-family: sans-serif; }
+        .vlr-table { border-collapse: collapse; width: 100%; font-size: 13px; background: white; margin-bottom: 24px; table-layout: fixed; }
+        .vlr-table th { color: #7a7a7a; padding: 12px 4px; border-bottom: 1px solid #eee; font-weight: normal; cursor: pointer; user-select: none; transition: background 0.2s; }
+        .vlr-table th:hover { background-color: #f0f0f0; color: #333; font-weight: bold; }
+        .vlr-table td { padding: 8px 4px; border-bottom: 1px solid #eee; text-align: center; overflow: hidden; }
+        .cell-player { text-align: left !important; padding-left: 12px !important; width: 180px; }
+        .cell-team { text-align: left !important; color: #999; font-size: 11px; }
+        .cell-agents { width: 90px; }
+    </style>
+</head>
+<body>
+    
+    <nav class="bg-gray-800 text-white shadow-md mb-6">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex items-center h-16 gap-8">
+                <a href="./index.html" class="font-bold text-xl tracking-wide">VCT赛事吧-孤勇者杯内战</a>
+                <div class="flex gap-4 text-sm font-medium">
+                    <a href="./index.html" class="hover:text-gray-300 transition-colors">MATCHES</a>
+                    <a href="./stats.html" class="hover:text-gray-300 transition-colors">STATS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-6xl mx-auto p-4">
+        <h1 class="text-2xl font-bold mb-4">Player Statistics (All Matches)</h1>
+        
+        <table class="vlr-table shadow-sm" id="statsTable">
+            <thead>
+                <tr>
+                    <th class="cell-player" onclick="sortTable('name')">PLAYER</th>
+                    <th class="cell-agents">AGENTS</th>
+                    <th onclick="sortTable('rounds')">RND</th>
+                    <th onclick="sortTable('rating')">R</th>
+                    <th onclick="sortTable('acs')">ACS</th>
+                    <th onclick="sortTable('kd')">K/D</th>
+                    <th onclick="sortTable('kast')">KAST</th>
+                    <th onclick="sortTable('adr')">ADR</th>
+                    <th onclick="sortTable('kpr')">KPR</th>
+                    <th onclick="sortTable('apr')">APR</th>
+                    <th onclick="sortTable('fkpr')">FKPR</th>
+                    <th onclick="sortTable('fdpr')">FDPR</th>
+                    <th onclick="sortTable('hs')">HS%</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- JS handles rendering -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        const playersData = [{"name":"宇智波斑","team":"Team A","agents":["jett"],"rounds":37,"rating":"2.59","acs":441,"k":61,"d":27,"a":7,"kd":"2.26","kast":83,"adr":271,"hs":37,"kpr":"1.65","apr":"0.19","fkpr":"0.30","fdpr":"0.08"},{"name":"水总会烧开","team":"Team B","agents":["fade","yoru"],"rounds":37,"rating":"1.46","acs":225,"k":29,"d":34,"a":8,"kd":"0.85","kast":77,"adr":152,"hs":23,"kpr":"0.78","apr":"0.22","fkpr":"0.19","fdpr":"0.22"},{"name":"Neymar","team":"Team B","agents":["viper","omen"],"rounds":37,"rating":"1.42","acs":219,"k":29,"d":29,"a":3,"kd":"1.00","kast":92,"adr":137,"hs":23,"kpr":"0.78","apr":"0.08","fkpr":"0.05","fdpr":"0.05"},{"name":"陪小怡许个愿","team":"Team A","agents":["yoru","neon"],"rounds":37,"rating":"1.39","acs":206,"k":29,"d":25,"a":8,"kd":"1.16","kast":76,"adr":141,"hs":24,"kpr":"0.78","apr":"0.22","fkpr":"0.11","fdpr":"0.03"},{"name":"失败尽常态","team":"Team B","agents":["raze","waylay"],"rounds":37,"rating":"1.31","acs":194,"k":27,"d":30,"a":7,"kd":"0.90","kast":75,"adr":122,"hs":30,"kpr":"0.73","apr":"0.19","fkpr":"0.14","fdpr":"0.08"},{"name":"磁力小刺猬","team":"Team B","agents":["tejo","astra"],"rounds":37,"rating":"1.27","acs":190,"k":24,"d":30,"a":9,"kd":"0.80","kast":77,"adr":127,"hs":26,"kpr":"0.65","apr":"0.24","fkpr":"0.05","fdpr":"0.11"},{"name":"inmome","team":"Team A","agents":["vyse","clove"],"rounds":37,"rating":"1.22","acs":178,"k":24,"d":26,"a":9,"kd":"0.92","kast":81,"adr":114,"hs":29,"kpr":"0.65","apr":"0.24","fkpr":"0.05","fdpr":"0.14"},{"name":"闲鱼万条","team":"Team A","agents":["brimstone","veto"],"rounds":37,"rating":"1.16","acs":168,"k":22,"d":24,"a":18,"kd":"0.92","kast":86,"adr":112,"hs":14,"kpr":"0.59","apr":"0.49","fkpr":"0.05","fdpr":"0.22"},{"name":"海上花","team":"Team A","agents":["fade","sova"],"rounds":37,"rating":"1.04","acs":142,"k":19,"d":20,"a":19,"kd":"0.95","kast":81,"adr":97,"hs":17,"kpr":"0.51","apr":"0.51","fkpr":"0.03","fdpr":"0.03"},{"name":"我们会分开","team":"Team B","agents":["brimstone","sova"],"rounds":37,"rating":"0.85","acs":113,"k":13,"d":32,"a":13,"kd":"0.41","kast":75,"adr":68,"hs":16,"kpr":"0.35","apr":"0.35","fkpr":"0.03","fdpr":"0.08"}];
+        let sortState = { key: 'rating', dir: 'desc' };
+        
+        const heatMapCols = {
+            'rating': { min: 0, max: 0 },
+            'acs':    { min: 0, max: 0 },
+            'kd':     { min: 0, max: 0 },
+            'kast':   { min: 0, max: 0 },
+            'adr':    { min: 0, max: 0 },
+            'kpr':    { min: 0, max: 0 },
+            'apr':    { min: 0, max: 0 },
+            'fkpr':   { min: 0, max: 0 },
+            'fdpr':   { min: 0, max: 0, isReverse: true },
+            'hs':     { min: 0, max: 0 }
+        };
+
+        function initStats() {
+            Object.keys(heatMapCols).forEach(k => {
+                heatMapCols[k].min = Infinity;
+                heatMapCols[k].max = -Infinity;
+            });
+
+            playersData.forEach(p => {
+                Object.keys(heatMapCols).forEach(k => {
+                    let val = parseFloat(p[k]) || 0;
+                    if (val < heatMapCols[k].min) heatMapCols[k].min = val;
+                    if (val > heatMapCols[k].max) heatMapCols[k].max = val;
+                });
+            });
+        }
+
+        function getColorStyle(key, value) {
+            const config = heatMapCols[key];
+            if (!config || config.max === config.min) return '';
+
+            let ratio = (value - config.min) / (config.max - config.min);
+            if (config.isReverse) ratio = 1 - ratio;
+
+            // Define Anchors: [Ratio, [R, G, B]]
+            // 1.0: #C2ACDF (Highest/Purple) -> 0.0: #DAADC6 (Lowest/Pink-Red)
+            const anchors = [
+                [1.0, [194, 172, 223]], // #C2ACDF (Purple)
+                [0.8, [173, 216, 230]], // Pastel Blue
+                [0.6, [180, 238, 180]], // Pastel Green
+                [0.4, [255, 255, 180]], // Pastel Yellow
+                [0.2, [255, 218, 185]], // Pastel Orange
+                [0.0, [218, 173, 198]]  // #DAADC6 (Pink/Red)
+            ];
+
+            let r, g, b;
+            for (let i = 0; i < anchors.length - 1; i++) {
+                const upper = anchors[i];
+                const lower = anchors[i+1];
+                if (ratio >= lower[0]) {
+                    const range = upper[0] - lower[0];
+                    const localRatio = (ratio - lower[0]) / range;
+                    r = Math.round(lower[1][0] + (upper[1][0] - lower[1][0]) * localRatio);
+                    g = Math.round(lower[1][1] + (upper[1][1] - lower[1][1]) * localRatio);
+                    b = Math.round(lower[1][2] + (upper[1][2] - lower[1][2]) * localRatio);
+                    break;
+                }
+            }
+
+            return `style="background-color: rgb(${r}, ${g}, ${b});"`;
+        }
+
+        function sortTable(key) {
+            if (sortState.key === key) {
+                sortState.dir = sortState.dir === 'desc' ? 'asc' : 'desc';
+            } else {
+                sortState.key = key;
+                sortState.dir = 'desc';
+            }
+            const dir = sortState.dir === 'desc' ? 1 : -1;
+            playersData.sort((a, b) => {
+                let valA = parseFloat(a[key]) || 0;
+                let valB = parseFloat(b[key]) || 0;
+                if (key === 'name') return a.name.localeCompare(b.name) * dir;
+                return (valB - valA) * dir;
+            });
+            renderTable();
+            updateHeaderIcons(key);
+        }
+
+        function updateHeaderIcons(activeKey) {
+            const arrow = sortState.dir === 'desc' ? '▼' : '▲';
+            document.querySelectorAll('th').forEach(th => {
+                const text = th.innerText.replace(/[▼▲]/g, '').trim();
+                th.innerText = text;
+                if (th.getAttribute('onclick').includes(`'${activeKey}'`)) {
+                    th.innerText = text + ' ' + arrow;
+                }
+            });
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            let html = '';
+            playersData.forEach(p => {
+                const agentsHtml = p.agents.map(a => `<img src="img/agents/${a}.png" class="w-5 h-5 inline-block" title="${a}">`).join(' ');
+                
+                html += `<tr>
+                    <td class="cell-player">
+                        <div class="flex flex-col">
+                            <a href="players/${p.name}.html" class="text-blue-600 font-bold hover:underline">${p.name}</a>
+                            <span class="cell-team">${p.team}</span>
+                        </div>
+                    </td>
+                    <td class="cell-agents">${agentsHtml}</td>
+                    <td>${p.rounds}</td>
+                    <td class="font-bold" ${getColorStyle('rating', p.rating)}>${p.rating}</td>
+                    <td ${getColorStyle('acs', p.acs)}>${p.acs}</td>
+                    <td ${getColorStyle('kd', p.kd)}>${p.kd}</td>
+                    <td ${getColorStyle('kast', p.kast)}>${p.kast}%</td>
+                    <td ${getColorStyle('adr', p.adr)}>${p.adr}</td>
+                    <td ${getColorStyle('kpr', p.kpr)}>${p.kpr}</td>
+                    <td ${getColorStyle('apr', p.apr)}>${p.apr}</td>
+                    <td ${getColorStyle('fkpr', p.fkpr)}>${p.fkpr}</td>
+                    <td ${getColorStyle('fdpr', p.fdpr)}>${p.fdpr}</td>
+                    <td ${getColorStyle('hs', p.hs)}>${p.hs}%</td>
+                </tr>`;
+            });
+            tbody.innerHTML = html;
+        }
+        
+        initStats();
+        sortTable('rating');
+    </script>
+</body>
+</html>

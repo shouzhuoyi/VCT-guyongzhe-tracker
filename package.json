@@ -1,0 +1,25 @@
+{
+  "name": "val_web",
+  "version": "1.0.0",
+  "description": "查阅build.js && matches下的json. Vibe coding from vlr.gg && gemini 3 flash",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shouzhuoyi/VCT-guyongzhe-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shouzhuoyi/VCT-guyongzhe-tracker/issues"
+  },
+  "homepage": "https://github.com/shouzhuoyi/VCT-guyongzhe-tracker#readme",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "sqlite3": "^5.1.7"
+  }
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #f2f2f2; font-family: sans-serif; }
+        .score-header { display: flex; justify-content: space-between; align-items: center; background: white; padding: 20px; border-bottom: 1px solid #ddd; }
+        .score-large { font-size: 48px; font-weight: bold; }
+        .text-win { color: #52a952; }
+        .vlr-table { border-collapse: collapse; width: 100%; font-size: 13px; background: white; margin-bottom: 24px; table-layout: fixed; }
+        .vlr-table th { color: #7a7a7a; padding: 12px 4px; border-bottom: 1px solid #eee; font-weight: normal; cursor: pointer; user-select: none; transition: background 0.2s; }
+        .vlr-table th:hover { background-color: #f0f0f0; color: #333; font-weight: bold; }
+        .vlr-table td { padding: 8px 4px; border-bottom: 1px solid #eee; text-align: center; overflow: hidden; }
+        .cell-player { text-align: left !important; padding-left: 12px !important; width: 160px; }
+        .cell-stat { width: 55px; }
+        .cell-agents { width: 80px; }
+        .cell-kda { width: 90px; }
+        .tab-btn { padding: 8px 16px; background: #ddd; font-weight: bold; cursor: pointer; border: none; }
+        .tab-btn.active { background: #666; color: white; }
+        .round-box { width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; margin: 1px; background: #eee; }
+        .win-green { background: #52a952 !important; } .win-red { background: #d04e4e !important; }
+    </style>
+</head>
+<body>
+    
+    <nav class="bg-gray-800 text-white shadow-md mb-6">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex items-center h-16 gap-8">
+                <a href="./index.html" class="font-bold text-xl tracking-wide">VCT赛事吧-孤勇者杯内战</a>
+                <div class="flex gap-4 text-sm font-medium">
+                    <a href="./index.html" class="hover:text-gray-300 transition-colors">MATCHES</a>
+                    <a href="./stats.html" class="hover:text-gray-300 transition-colors">STATS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="max-w-6xl mx-auto p-4">
+        <div class="flex gap-1 mb-4"><button onclick="switchMatch(0)" class="tab-btn" id="btn-0">All Maps</button><button onclick="switchMatch(1)" class="tab-btn" id="btn-1">1 Bind</button><button onclick="switchMatch(2)" class="tab-btn" id="btn-2">2 Abyss</button></div>
+        <div id="content-area"></div>
+    </div>
+    <script>
+        const matchesData = [{"id":0,"displayTitle":"All Maps","map":"Overall Stats","isAllMaps":true,"seriesScore":[2,0],"teams":[{"team_name":"Team A","players":[{"name":"宇智波斑","nationality":"cn","agents":["jett"],"stats":{"rating":"2.62","acs":447,"k":61,"d":27,"a":7,"diff":34,"kast":"85%","adr":276,"hs_percent":"38%","fk":11,"fd":3,"fkfd_diff":8}},{"name":"陪小怡许个愿","nationality":"cn","agents":["yoru","neon"],"stats":{"rating":"1.44","acs":216,"k":29,"d":25,"a":8,"diff":4,"kast":"76%","adr":150,"hs_percent":"24%","fk":4,"fd":1,"fkfd_diff":3}},{"name":"inmome","nationality":"cn","agents":["vyse","clove"],"stats":{"rating":"1.21","acs":178,"k":24,"d":26,"a":9,"diff":-2,"kast":"82%","adr":114,"hs_percent":"27%","fk":2,"fd":5,"fkfd_diff":-3}},{"name":"闲鱼万条","nationality":"cn","agents":["brimstone","veto"],"stats":{"rating":"1.16","acs":165,"k":22,"d":24,"a":18,"diff":-2,"kast":"88%","adr":112,"hs_percent":"14%","fk":2,"fd":8,"fkfd_diff":-6}},{"name":"海上花","nationality":"cn","agents":["fade","sova"],"stats":{"rating":"1.06","acs":145,"k":19,"d":20,"a":19,"diff":-1,"kast":"81%","adr":99,"hs_percent":"18%","fk":1,"fd":1,"fkfd_diff":0}}]},{"team_name":"Team B","players":[{"name":"Neymar","nationality":"cn","agents":["viper","omen"],"stats":{"rating":"1.45","acs":224,"k":29,"d":29,"a":3,"diff":0,"kast":"93%","adr":140,"hs_percent":"23%","fk":2,"fd":2,"fkfd_diff":0}},{"name":"水总会烧开","nationality":"cn","agents":["fade","yoru"],"stats":{"rating":"1.41","acs":217,"k":29,"d":34,"a":8,"diff":-5,"kast":"74%","adr":147,"hs_percent":"21%","fk":7,"fd":8,"fkfd_diff":-1}},{"name":"失败尽常态","nationality":"cn","agents":["raze","waylay"],"stats":{"rating":"1.28","acs":188,"k":27,"d":30,"a":7,"diff":-3,"kast":"73%","adr":120,"hs_percent":"34%","fk":5,"fd":3,"fkfd_diff":2}},{"name":"磁力小刺猬","nationality":"cn","agents":["tejo","astra"],"stats":{"rating":"1.28","acs":194,"k":24,"d":30,"a":9,"diff":-6,"kast":"74%","adr":129,"hs_percent":"26%","fk":2,"fd":4,"fkfd_diff":-2}},{"name":"我们会分开","nationality":"cn","agents":["brimstone","sova"],"stats":{"rating":"0.81","acs":108,"k":13,"d":32,"a":13,"diff":-19,"kast":"73%","adr":67,"hs_percent":"17%","fk":1,"fd":3,"fkfd_diff":-2}}]}]},{"id":1,"displayTitle":"1 Bind","map":"Bind","map_pick":"Team B","teams":[{"team_name":"Team A","score":13,"players":[{"name":"宇智波斑","nationality":"cn","agents":["jett"],"stats":{"rating":"2.47","acs":415,"k":35,"d":17,"a":3,"diff":18,"kast":"77%","adr":251,"hs_percent":"36%","fk":6,"fd":3,"fkfd_diff":3}},{"name":"inmome","nationality":"cn","agents":["vyse"],"stats":{"rating":"1.23","acs":176,"k":15,"d":15,"a":3,"diff":0,"kast":"77%","adr":114,"hs_percent":"38%","fk":2,"fd":3,"fkfd_diff":-1}},{"name":"闲鱼万条","nationality":"cn","agents":["brimstone"],"stats":{"rating":"1.20","acs":181,"k":13,"d":16,"a":17,"diff":-3,"kast":"82%","adr":116,"hs_percent":"15%","fk":1,"fd":3,"fkfd_diff":-2}},{"name":"陪小怡许个愿","nationality":"cn","agents":["yoru"],"stats":{"rating":"1.17","acs":165,"k":14,"d":18,"a":5,"diff":-4,"kast":"77%","adr":105,"hs_percent":"24%","fk":3,"fd":1,"fkfd_diff":2}},{"name":"海上花","nationality":"cn","agents":["fade"],"stats":{"rating":"0.94","acs":127,"k":9,"d":13,"a":16,"diff":-4,"kast":"82%","adr":91,"hs_percent":"12%","fk":0,"fd":1,"fkfd_diff":-1}}],"round_history":["none","defuse","elim","none","elim","none","none","none","none","defuse","none","elim","elim","elim","elim","none","elim","elim","elim","elim","none","none","elim"]},{"team_name":"Team B","score":9,"players":[{"name":"水总会烧开","nationality":"cn","agents":["fade"],"stats":{"rating":"1.66","acs":262,"k":21,"d":19,"a":6,"diff":2,"kast":"91%","adr":173,"hs_percent":"29%","fk":4,"fd":4,"fkfd_diff":1}},{"name":"失败尽常态","nationality":"cn","agents":["raze"],"stats":{"rating":"1.43","acs":220,"k":18,"d":17,"a":6,"diff":1,"kast":"82%","adr":131,"hs_percent":"15%","fk":3,"fd":1,"fkfd_diff":1}},{"name":"Neymar","nationality":"cn","agents":["viper"],"stats":{"rating":"1.33","acs":201,"k":16,"d":16,"a":3,"diff":0,"kast":"86%","adr":125,"hs_percent":"27%","fk":2,"fd":2,"fkfd_diff":0}},{"name":"磁力小刺猬","nationality":"cn","agents":["tejo"],"stats":{"rating":"1.19","acs":174,"k":13,"d":16,"a":8,"diff":-3,"kast":"91%","adr":122,"hs_percent":"28%","fk":1,"fd":2,"fkfd_diff":-2}},{"name":"我们会分开","nationality":"cn","agents":["brimstone"],"stats":{"rating":"0.99","acs":138,"k":11,"d":18,"a":10,"diff":-7,"kast":"82%","adr":74,"hs_percent":"12%","fk":0,"fd":3,"fkfd_diff":-2}}],"round_history":["elim","none","none","elim","none","elim","elim","elim","boom","none","elim","none","none","none","none","defuse","none","none","none","none","elim","defuse","none"]}]},{"id":2,"displayTitle":"2 Abyss","map":"Abyss","map_pick":"Team A","duration":"1:15:10","teams":[{"team_name":"Team A","score":13,"side_scores":{"attack":10,"defend":3},"round_history":["elim","boom","elim","elim","elim","elim","boom","elim","elim","elim","none","none","elim","elim","elim"],"players":[{"name":"宇智波斑","nationality":"cn","agents":["jett"],"stats":{"rating":"2.76","acs":479,"k":26,"d":10,"a":4,"diff":16,"kast":"93%","adr":300,"hs_percent":"39%","fk":5,"fd":0,"fkfd_diff":5}},{"name":"陪小怡许个愿","nationality":"cn","agents":["neon"],"stats":{"rating":"1.72","acs":266,"k":15,"d":7,"a":3,"diff":8,"kast":"75%","adr":194,"hs_percent":"23%","fk":1,"fd":0,"fkfd_diff":1}},{"name":"inmome","nationality":"cn","agents":["clove"],"stats":{"rating":"1.20","acs":180,"k":9,"d":11,"a":6,"diff":-2,"kast":"86%","adr":113,"hs_percent":"16%","fk":0,"fd":2,"fkfd_diff":-2}},{"name":"海上花","nationality":"cn","agents":["sova"],"stats":{"rating":"1.18","acs":163,"k":10,"d":7,"a":3,"diff":3,"kast":"79%","adr":107,"hs_percent":"24%","fk":1,"fd":0,"fkfd_diff":1}},{"name":"闲鱼万条","nationality":"cn","agents":["veto"],"stats":{"rating":"1.11","acs":148,"k":9,"d":8,"a":1,"diff":1,"kast":"93%","adr":107,"hs_percent":"13%","fk":1,"fd":5,"fkfd_diff":-4}}]},{"team_name":"Team B","score":2,"side_scores":{"attack":2,"defend":0},"players":[{"name":"Neymar","nationality":"cn","agents":["omen"],"stats":{"rating":"1.56","acs":246,"k":13,"d":13,"a":0,"diff":0,"kast":"100%","adr":155,"hs_percent":"18%","fk":0,"fd":0,"fkfd_diff":0}},{"name":"磁力小刺猬","nationality":"cn","agents":["astra"],"stats":{"rating":"1.38","acs":214,"k":11,"d":14,"a":1,"diff":-3,"kast":"57%","adr":135,"hs_percent":"24%","fk":1,"fd":2,"fkfd_diff":-2}},{"name":"水总会烧开","nationality":"cn","agents":["yoru"],"stats":{"rating":"1.16","acs":171,"k":8,"d":15,"a":2,"diff":-7,"kast":"57%","adr":121,"hs_percent":"13%","fk":3,"fd":4,"fkfd_diff":-1}},{"name":"失败尽常态","nationality":"cn","agents":["waylay"],"stats":{"rating":"1.14","acs":156,"k":9,"d":13,"a":1,"diff":-4,"kast":"64%","adr":109,"hs_percent":"53%","fk":2,"fd":2,"fkfd_diff":0}},{"name":"我们会分开","nationality":"cn","agents":["sova"],"stats":{"rating":"0.64","acs":77,"k":2,"d":14,"a":3,"diff":-12,"kast":"64%","adr":60,"hs_percent":"21%","fk":1,"fd":0,"fkfd_diff":1}}],"round_history":["none","none","none","none","none","none","none","none","none","none","elim","defuse","none","none","none"]}]}];
+        let currentMatchId = 0;
+        let sortState = {}; // Store sort direction: { "matchId-teamIdx": { key: 'rating', dir: 'desc' } }
+
+        function switchMatch(id) {
+            currentMatchId = id;
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('btn-' + id).classList.add('active');
+            renderMatch(id);
+        }
+
+        function sortTable(teamIdx, key) {
+            const data = matchesData.find(m => m.id === currentMatchId);
+            const team = data.teams[teamIdx];
+            
+            // Init sort state for this specific table if not exists
+            const stateKey = currentMatchId + '-' + teamIdx;
+            if (!sortState[stateKey]) sortState[stateKey] = { key: 'rating', dir: 'desc' };
+            
+            // Toggle direction if clicking same key, else reset to desc
+            if (sortState[stateKey].key === key) {
+                sortState[stateKey].dir = sortState[stateKey].dir === 'desc' ? 'asc' : 'desc';
+            } else {
+                sortState[stateKey].key = key;
+                sortState[stateKey].dir = 'desc';
+            }
+
+            const dir = sortState[stateKey].dir === 'desc' ? 1 : -1;
+
+            team.players.sort((a, b) => {
+                let valA = getVal(a, key);
+                let valB = getVal(b, key);
+                
+                // Numeric sort
+                return (valB - valA) * dir;
+            });
+
+            renderMatch(currentMatchId);
+        }
+
+        function getVal(p, key) {
+            // Helper to extract numeric value for sorting
+            if (key === 'kda') return p.stats.k; // Sort by Kills for KDA column
+            if (key === 'name') return 0; // Handled separately if needed, currently string
+            if (typeof p.stats[key] === 'string' && p.stats[key].includes('%')) {
+                return parseFloat(p.stats[key]);
+            }
+            return parseFloat(p.stats[key]);
+        }
+
+        function renderMatch(id) {
+            const data = matchesData.find(m => m.id === id);
+            const s0 = data.isAllMaps ? data.seriesScore[0] : data.teams[0].score;
+            const s1 = data.isAllMaps ? data.seriesScore[1] : data.teams[1].score;
+            const pickText = data.map_pick === true ? '◀ PICK' : (data.map_pick === false ? 'PICK ▶' : '');
+
+            let html = `
+                <div class="score-header mb-4 shadow-sm">
+                    <div class="flex items-center gap-4"><span class="score-large ${s0 > s1 ? 'text-win' : ''}">${s0}</span><div class="font-bold">${data.teams[0].team_name}</div></div>
+                    <div class="text-center"><div class="text-[10px] text-gray-400">${pickText}</div><div class="font-bold text-xl">${data.map}</div></div>
+                    <div class="flex items-center gap-4"><div class="font-bold">${data.teams[1].team_name}</div><span class="score-large max-w-6xl ${s1 > s0 ? 'text-win' : ''}">${s1}</span></div>
+                </div>`;
+
+            if(!data.isAllMaps) {
+                html += `<div class="bg-white p-4 mb-4 shadow-sm">`;
+                data.teams.forEach((team, tIdx) => {
+                    html += `<div class="flex items-center mb-1"><div class="w-24 text-xs font-bold truncate">${team.team_name}</div>`;
+                    for(let i=0; i<24; i++) {
+                        const ev = team.round_history[i] || 'none';
+                        const cls = ev !== 'none' ? (tIdx === 0 ? 'win-red' : 'win-green') : '';
+                        html += `<div class="round-box ${cls} ${i===12?'ml-4':''}">${ev!=='none'?'<img src="./img/events/'+ev+'.webp" class="w-4">':''}</div>`;
+                    }
+                    html += `</div>`;
+                });
+                html += `</div>`;
+            }
+
+            data.teams.forEach((team, tIdx) => {
+                // Determine sort indicator
+                const stateKey = id + '-' + tIdx;
+                const currentSort = sortState[stateKey] || { key: 'rating', dir: 'desc' }; // Default visual state
+                const arrow = currentSort.dir === 'desc' ? '▼' : '▲';
+                const getHeader = (label, key) => `<th onclick="sortTable(${tIdx}, '${key}')" title="Sort by ${label}">${label} ${currentSort.key === key ? arrow : ''}</th>`;
+
+                html += `<table class="vlr-table shadow-sm"><thead><tr>
+                    <th class="cell-player">PLAYER</th>
+                    <th class="cell-agents">AGENTS</th>
+                    ${getHeader('R', 'rating')}
+                    ${getHeader('ACS', 'acs')}
+                    ${getHeader('K', 'k')}
+                    ${getHeader('D', 'd')}
+                    ${getHeader('A', 'a')}
+                    ${getHeader('+/-', 'diff')}
+                    ${getHeader('KAST', 'kast')}
+                    ${getHeader('ADR', 'adr')}
+                    ${getHeader('HS%', 'hs_percent')}
+                    ${getHeader('FK', 'fk')}
+                    ${getHeader('FD', 'fd')}
+                </tr></thead><tbody>`;
+                
+                team.players.forEach(p => {
+                    html += `<tr>
+                        <td class="cell-player"><a href="./players/${p.name}.html" class="text-blue-600 font-bold hover:underline">${p.name}</a></td>
+                        <td class="cell-agents"><div class="flex justify-center gap-1">${p.agents.map(a=>'<img src="./img/agents/'+a+'.png" class="w-5">').join('')}</div></td>
+                        <td class="font-bold">${p.stats.rating}</td>
+                        <td>${p.stats.acs}</td>
+                        <td>${p.stats.k}</td>
+                        <td>${p.stats.d}</td>
+                        <td>${p.stats.a}</td>
+                        <td class="${p.stats.diff>0?'text-green-600':'text-red-600'}">${p.stats.diff}</td>
+                        <td>${p.stats.kast}</td>
+                        <td>${p.stats.adr}</td>
+                        <td>${p.stats.hs_percent}</td>
+                        <td>${p.stats.fk}</td>
+                        <td>${p.stats.fd}</td>
+                    </tr>`;
+                });
+                html += '</tbody></table>';
+            });
+            document.getElementById('content-area').innerHTML = html;
+        }
+        switchMatch(0);
+    </script>
+</body>
+</html>
