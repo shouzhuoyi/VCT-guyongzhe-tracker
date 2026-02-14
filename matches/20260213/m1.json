@@ -1,0 +1,258 @@
+{
+  "map": "Bind",
+  "map_pick": "Team B",
+  "teams": [
+    {
+      "team_name": "Team A",
+      "score": 13,
+      "players": [
+        {
+          "name": "宇智波斑",
+          "nationality": "cn",
+          "agents": ["jett"],
+          "stats": {
+            "rating": 1.4,
+            "acs": 415,
+            "k": 35,
+            "d": 17,
+            "a": 3,
+            "diff": 18,
+            "kast": "77%",
+            "adr": 251,
+            "hs_percent": "36%",
+            "fk": 6,
+            "fd": 3,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "闲鱼万条",
+          "nationality": "cn",
+          "agents": ["brimstone"],
+          "stats": {
+            "rating": 1.02,
+            "acs": 181,
+            "k": 13,
+            "d": 16,
+            "a": 17,
+            "diff": -3,
+            "kast": "82%",
+            "adr": 116,
+            "hs_percent": "15%",
+            "fk": 1,
+            "fd": 3,
+            "fkfd_diff": -2
+          }
+        },
+        {
+          "name": "inmome",
+          "nationality": "cn",
+          "agents": ["vyse"],
+          "stats": {
+            "rating": 0.98,
+            "acs": 176,
+            "k": 15,
+            "d": 15,
+            "a": 3,
+            "diff": 0,
+            "kast": "77%",
+            "adr": 114,
+            "hs_percent": "38%",
+            "fk": 2,
+            "fd": 3,
+            "fkfd_diff": -1
+          }
+        },
+        {
+          "name": "陪小怡许个愿",
+          "nationality": "cn",
+          "agents": ["yoru"],
+          "stats": {
+            "rating": 0.92,
+            "acs": 165,
+            "k": 14,
+            "d": 18,
+            "a": 5,
+            "diff": -4,
+            "kast": "77%",
+            "adr": 105,
+            "hs_percent": "24%",
+            "fk": 3,
+            "fd": 1,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "海上花",
+          "nationality": "cn",
+          "agents": ["fade"],
+          "stats": {
+            "rating": 0.85,
+            "acs": 127,
+            "k": 9,
+            "d": 13,
+            "a": 16,
+            "diff": -4,
+            "kast": "82%",
+            "adr": 91,
+            "hs_percent": "12%",
+            "fk": 0,
+            "fd": 1,
+            "fkfd_diff": -1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "defuse",
+        "elim",
+        "none",
+        "elim",
+        "none",
+        "none",
+        "none",
+        "none",
+        "defuse",
+        "none",
+        "elim",
+        "elim",
+        "elim",
+        "elim",
+        "none",
+        "elim",
+        "elim",
+        "elim",
+        "elim",
+        "none",
+        "none",
+        "elim"
+      ]
+    },
+    {
+      "team_name": "Team B",
+      "score": 9,
+      "players": [
+        {
+          "name": "水总会烧开",
+          "nationality": "cn",
+          "agents": ["fade"],
+          "stats": {
+            "rating": 1.18,
+            "acs": 262,
+            "k": 21,
+            "d": 19,
+            "a": 6,
+            "diff": 2,
+            "kast": "91%",
+            "adr": 173,
+            "hs_percent": "29%",
+            "fk": 4,
+            "fd": 4,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "失败尽常态",
+          "nationality": "cn",
+          "agents": ["raze"],
+          "stats": {
+            "rating": 1.05,
+            "acs": 220,
+            "k": 18,
+            "d": 17,
+            "a": 6,
+            "diff": 1,
+            "kast": "82%",
+            "adr": 131,
+            "hs_percent": "15%",
+            "fk": 3,
+            "fd": 1,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "Neymar",
+          "nationality": "cn",
+          "agents": ["viper"],
+          "stats": {
+            "rating": 0.95,
+            "acs": 201,
+            "k": 16,
+            "d": 16,
+            "a": 3,
+            "diff": 0,
+            "kast": "86%",
+            "adr": 125,
+            "hs_percent": "27%",
+            "fk": 2,
+            "fd": 2,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "磁力小刺猬",
+          "nationality": "cn",
+          "agents": ["tejo"],
+          "stats": {
+            "rating": 0.88,
+            "acs": 174,
+            "k": 13,
+            "d": 16,
+            "a": 8,
+            "diff": -3,
+            "kast": "91%",
+            "adr": 122,
+            "hs_percent": "28%",
+            "fk": 1,
+            "fd": 2,
+            "fkfd_diff": -2
+          }
+        },
+        {
+          "name": "我们会分开",
+          "nationality": "cn",
+          "agents": ["brimstone"],
+          "stats": {
+            "rating": 0.75,
+            "acs": 138,
+            "k": 11,
+            "d": 18,
+            "a": 10,
+            "diff": -7,
+            "kast": "82%",
+            "adr": 74,
+            "hs_percent": "12%",
+            "fk": 0,
+            "fd": 3,
+            "fkfd_diff": -2
+          }
+        }
+      ],
+      "round_history": [
+        "elim",
+        "none",
+        "none",
+        "elim",
+        "none",
+        "elim",
+        "elim",
+        "elim",
+        "boom",
+        "none",
+        "elim",
+        "none",
+        "none",
+        "none",
+        "none",
+        "defuse",
+        "none",
+        "none",
+        "none",
+        "none",
+        "elim",
+        "defuse",
+        "none"
+      ]
+    }
+  ]
+}
