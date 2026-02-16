@@ -9,9 +9,7 @@
         {
           "name": "嚼完我是太阳",
           "nationality": "cn",
-          "agents": [
-            "raze"
-          ],
+          "agents": ["raze"],
           "stats": {
             "rating": 0.99,
             "acs": 308,
@@ -30,9 +28,7 @@
         {
           "name": "手感好能杀两个",
           "nationality": "cn",
-          "agents": [
-            "clove"
-          ],
+          "agents": ["clove"],
           "stats": {
             "rating": 0.84,
             "acs": 269,
@@ -51,9 +47,7 @@
         {
           "name": "鞭妇侠",
           "nationality": "cn",
-          "agents": [
-            "fade"
-          ],
+          "agents": ["fade"],
           "stats": {
             "rating": 0.81,
             "acs": 235,
@@ -72,9 +66,7 @@
         {
           "name": "梦之泪伤",
           "nationality": "cn",
-          "agents": [
-            "phoenix"
-          ],
+          "agents": ["phoenix"],
           "stats": {
             "rating": 0.64,
             "acs": 188,
@@ -93,9 +85,7 @@
         {
           "name": "有点英镑镑",
           "nationality": "cn",
-          "agents": [
-            "sage"
-          ],
+          "agents": ["sage"],
           "stats": {
             "rating": 0.48,
             "acs": 126,
@@ -142,9 +132,7 @@
         {
           "name": "OranCity",
           "nationality": "cn",
-          "agents": [
-            "neon"
-          ],
+          "agents": ["neon"],
           "stats": {
             "rating": 1.11,
             "acs": 335,
@@ -163,9 +151,7 @@
         {
           "name": "天马609魏豪",
           "nationality": "cn",
-          "agents": [
-            "vyse"
-          ],
+          "agents": ["vyse"],
           "stats": {
             "rating": 0.83,
             "acs": 249,
@@ -184,9 +170,7 @@
         {
           "name": "anorak",
           "nationality": "cn",
-          "agents": [
-            "reyna"
-          ],
+          "agents": ["reyna"],
           "stats": {
             "rating": 0.7,
             "acs": 219,
@@ -205,9 +189,7 @@
         {
           "name": "HugeCity",
           "nationality": "cn",
-          "agents": [
-            "astra"
-          ],
+          "agents": ["astra"],
           "stats": {
             "rating": 0.59,
             "acs": 174,
@@ -226,9 +208,7 @@
         {
           "name": "City",
           "nationality": "cn",
-          "agents": [
-            "sova"
-          ],
+          "agents": ["sova"],
           "stats": {
             "rating": 0.47,
             "acs": 134,
