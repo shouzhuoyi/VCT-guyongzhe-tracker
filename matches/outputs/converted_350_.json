@@ -1,0 +1,280 @@
+{
+  "map": "/Game/Maps/Infinity/Infinity",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 11,
+      "players": [
+        {
+          "name": "失瞄少年",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 1.2,
+            "acs": 361,
+            "k": 32,
+            "d": 19,
+            "a": 4,
+            "diff": 13,
+            "kast": "0%",
+            "adr": 231,
+            "hs_percent": "28%",
+            "fk": 7,
+            "fd": 0,
+            "fkfd_diff": 7
+          }
+        },
+        {
+          "name": "会飞的固拉多",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.91,
+            "acs": 270,
+            "k": 23,
+            "d": 17,
+            "a": 3,
+            "diff": 6,
+            "kast": "0%",
+            "adr": 172,
+            "hs_percent": "29%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "油条哎大胖虎",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.45,
+            "acs": 141,
+            "k": 10,
+            "d": 20,
+            "a": 8,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 94,
+            "hs_percent": "6%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "梨花诗",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.33,
+            "acs": 102,
+            "k": 8,
+            "d": 19,
+            "a": 9,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 67,
+            "hs_percent": "28%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "吴世勋的老婆",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.3,
+            "acs": 92,
+            "k": 6,
+            "d": 22,
+            "a": 8,
+            "diff": -16,
+            "kast": "0%",
+            "adr": 67,
+            "hs_percent": "7%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "柳木诗梦是天",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 1.22,
+            "acs": 322,
+            "k": 27,
+            "d": 12,
+            "a": 8,
+            "diff": 15,
+            "kast": "0%",
+            "adr": 217,
+            "hs_percent": "16%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 1.1,
+            "acs": 304,
+            "k": 28,
+            "d": 16,
+            "a": 1,
+            "diff": 12,
+            "kast": "0%",
+            "adr": 213,
+            "hs_percent": "35%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.87,
+            "acs": 265,
+            "k": 21,
+            "d": 17,
+            "a": 6,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 166,
+            "hs_percent": "44%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "waylay"
+          ],
+          "stats": {
+            "rating": 0.64,
+            "acs": 193,
+            "k": 15,
+            "d": 18,
+            "a": 5,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 130,
+            "hs_percent": "19%",
+            "fk": 5,
+            "fd": 0,
+            "fkfd_diff": 5
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.26,
+            "acs": 74,
+            "k": 5,
+            "d": 17,
+            "a": 6,
+            "diff": -12,
+            "kast": "0%",
+            "adr": 58,
+            "hs_percent": "18%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

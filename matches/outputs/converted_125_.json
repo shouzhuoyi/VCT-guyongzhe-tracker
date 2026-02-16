@@ -1,0 +1,268 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "天马609魏豪",
+          "nationality": "cn",
+          "agents": [
+            "vyse"
+          ],
+          "stats": {
+            "rating": 1.1,
+            "acs": 272,
+            "k": 18,
+            "d": 8,
+            "a": 2,
+            "diff": 10,
+            "kast": "0%",
+            "adr": 190,
+            "hs_percent": "37%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 1.02,
+            "acs": 301,
+            "k": 19,
+            "d": 11,
+            "a": 4,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 177,
+            "hs_percent": "15%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "海上花",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.99,
+            "acs": 280,
+            "k": 18,
+            "d": 10,
+            "a": 5,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 169,
+            "hs_percent": "23%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "deadlock"
+          ],
+          "stats": {
+            "rating": 0.8,
+            "acs": 219,
+            "k": 15,
+            "d": 10,
+            "a": 2,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 140,
+            "hs_percent": "22%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.65,
+            "acs": 174,
+            "k": 12,
+            "d": 10,
+            "a": 7,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 116,
+            "hs_percent": "10%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 5,
+      "players": [
+        {
+          "name": "TosKa",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.97,
+            "acs": 325,
+            "k": 19,
+            "d": 17,
+            "a": 0,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 190,
+            "hs_percent": "35%",
+            "fk": 11,
+            "fd": 0,
+            "fkfd_diff": 11
+          }
+        },
+        {
+          "name": "冷脸萌",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.49,
+            "acs": 153,
+            "k": 10,
+            "d": 13,
+            "a": 2,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 87,
+            "hs_percent": "27%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "小宝宝",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.42,
+            "acs": 131,
+            "k": 7,
+            "d": 15,
+            "a": 3,
+            "diff": -8,
+            "kast": "0%",
+            "adr": 89,
+            "hs_percent": "2%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "一起去看海",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.37,
+            "acs": 119,
+            "k": 7,
+            "d": 19,
+            "a": 9,
+            "diff": -12,
+            "kast": "0%",
+            "adr": 78,
+            "hs_percent": "27%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "ciallo",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.32,
+            "acs": 100,
+            "k": 6,
+            "d": 18,
+            "a": 2,
+            "diff": -12,
+            "kast": "0%",
+            "adr": 69,
+            "hs_percent": "42%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

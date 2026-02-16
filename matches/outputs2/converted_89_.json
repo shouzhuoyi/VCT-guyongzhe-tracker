@@ -1,0 +1,274 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "zxinm",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 1.07,
+            "acs": 333,
+            "k": 26,
+            "d": 16,
+            "a": 3,
+            "diff": 10,
+            "kast": "0%",
+            "adr": 195,
+            "hs_percent": "25%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "下次去看海",
+          "nationality": "cn",
+          "agents": [
+            "breach"
+          ],
+          "stats": {
+            "rating": 0.96,
+            "acs": 252,
+            "k": 20,
+            "d": 11,
+            "a": 10,
+            "diff": 9,
+            "kast": "0%",
+            "adr": 171,
+            "hs_percent": "33%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "不见花海",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.68,
+            "acs": 196,
+            "k": 15,
+            "d": 14,
+            "a": 7,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 127,
+            "hs_percent": "26%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "裴珠泫",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.63,
+            "acs": 198,
+            "k": 13,
+            "d": 19,
+            "a": 7,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 134,
+            "hs_percent": "8%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "梅月笙",
+          "nationality": "cn",
+          "agents": [
+            "deadlock"
+          ],
+          "stats": {
+            "rating": 0.45,
+            "acs": 146,
+            "k": 10,
+            "d": 17,
+            "a": 6,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 84,
+            "hs_percent": "5%",
+            "fk": 5,
+            "fd": 0,
+            "fkfd_diff": 5
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 8,
+      "players": [
+        {
+          "name": "鹿玖D",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.75,
+            "acs": 233,
+            "k": 19,
+            "d": 19,
+            "a": 6,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 148,
+            "hs_percent": "30%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "最厚最坏的大蒜",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.74,
+            "acs": 226,
+            "k": 17,
+            "d": 15,
+            "a": 6,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 133,
+            "hs_percent": "24%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.72,
+            "acs": 211,
+            "k": 15,
+            "d": 14,
+            "a": 6,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 136,
+            "hs_percent": "18%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 0.72,
+            "acs": 211,
+            "k": 16,
+            "d": 16,
+            "a": 6,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 142,
+            "hs_percent": "32%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "waylay"
+          ],
+          "stats": {
+            "rating": 0.55,
+            "acs": 174,
+            "k": 10,
+            "d": 20,
+            "a": 6,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 121,
+            "hs_percent": "19%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "map": "/Game/Maps/Infinity/Infinity",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 10,
+      "players": [
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 0.72,
+            "acs": 208,
+            "k": 18,
+            "d": 19,
+            "a": 2,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 147,
+            "hs_percent": "28%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.69,
+            "acs": 212,
+            "k": 15,
+            "d": 19,
+            "a": 5,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 147,
+            "hs_percent": "17%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "霍去病",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 186,
+            "k": 13,
+            "d": 21,
+            "a": 9,
+            "diff": -8,
+            "kast": "0%",
+            "adr": 122,
+            "hs_percent": "11%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.56,
+            "acs": 181,
+            "k": 12,
+            "d": 19,
+            "a": 12,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 115,
+            "hs_percent": "13%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.32,
+            "acs": 107,
+            "k": 10,
+            "d": 21,
+            "a": 1,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 57,
+            "hs_percent": "12%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "xddd",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 1.1,
+            "acs": 305,
+            "k": 27,
+            "d": 15,
+            "a": 10,
+            "diff": 12,
+            "kast": "0%",
+            "adr": 208,
+            "hs_percent": "17%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "小小冉杰",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.98,
+            "acs": 286,
+            "k": 25,
+            "d": 15,
+            "a": 0,
+            "diff": 10,
+            "kast": "0%",
+            "adr": 171,
+            "hs_percent": "42%",
+            "fk": 8,
+            "fd": 0,
+            "fkfd_diff": 8
+          }
+        },
+        {
+          "name": "Rsq",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.89,
+            "acs": 268,
+            "k": 19,
+            "d": 17,
+            "a": 7,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 184,
+            "hs_percent": "30%",
+            "fk": 7,
+            "fd": 0,
+            "fkfd_diff": 7
+          }
+        },
+        {
+          "name": "风仔起飞",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.73,
+            "acs": 189,
+            "k": 15,
+            "d": 12,
+            "a": 11,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 142,
+            "hs_percent": "20%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "GAIGAI",
+          "nationality": "cn",
+          "agents": [
+            "kayo"
+          ],
+          "stats": {
+            "rating": 0.56,
+            "acs": 142,
+            "k": 12,
+            "d": 10,
+            "a": 7,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 93,
+            "hs_percent": "9%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

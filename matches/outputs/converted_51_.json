@@ -1,0 +1,268 @@
+{
+  "map": "Pearl",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 1.51,
+            "acs": 320,
+            "k": 25,
+            "d": 6,
+            "a": 6,
+            "diff": 19,
+            "kast": "0%",
+            "adr": 205,
+            "hs_percent": "25%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "范阳卢氏",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 0.96,
+            "acs": 295,
+            "k": 18,
+            "d": 13,
+            "a": 7,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 181,
+            "hs_percent": "31%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "小凌神",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.8,
+            "acs": 243,
+            "k": 14,
+            "d": 12,
+            "a": 6,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 149,
+            "hs_percent": "15%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.77,
+            "acs": 224,
+            "k": 13,
+            "d": 12,
+            "a": 6,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 151,
+            "hs_percent": "25%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.49,
+            "acs": 141,
+            "k": 9,
+            "d": 12,
+            "a": 8,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 93,
+            "hs_percent": "18%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 5,
+      "players": [
+        {
+          "name": "薇尔莉特",
+          "nationality": "cn",
+          "agents": [
+            "killjoy"
+          ],
+          "stats": {
+            "rating": 0.81,
+            "acs": 236,
+            "k": 15,
+            "d": 14,
+            "a": 1,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 168,
+            "hs_percent": "14%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "人类一败涂地",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.74,
+            "acs": 241,
+            "k": 14,
+            "d": 18,
+            "a": 5,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 153,
+            "hs_percent": "11%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "哪里都是你",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.63,
+            "acs": 197,
+            "k": 11,
+            "d": 16,
+            "a": 7,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 134,
+            "hs_percent": "23%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "洛水之棠",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.46,
+            "acs": 144,
+            "k": 7,
+            "d": 15,
+            "a": 3,
+            "diff": -8,
+            "kast": "0%",
+            "adr": 98,
+            "hs_percent": "21%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "cench",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.43,
+            "acs": 143,
+            "k": 8,
+            "d": 17,
+            "a": 5,
+            "diff": -9,
+            "kast": "0%",
+            "adr": 85,
+            "hs_percent": "4%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "map": "Split",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 9,
+      "players": [
+        {
+          "name": "笨蛋总是掉眼泪",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.89,
+            "acs": 273,
+            "k": 22,
+            "d": 18,
+            "a": 4,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 171,
+            "hs_percent": "18%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "送一张廉价品",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.83,
+            "acs": 247,
+            "k": 19,
+            "d": 17,
+            "a": 7,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 165,
+            "hs_percent": "25%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "mine",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.67,
+            "acs": 212,
+            "k": 15,
+            "d": 21,
+            "a": 8,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 140,
+            "hs_percent": "20%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "喵不准",
+          "nationality": "cn",
+          "agents": [
+            "kayo"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 172,
+            "k": 14,
+            "d": 16,
+            "a": 7,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 108,
+            "hs_percent": "10%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "天青色等烟雨",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.23,
+            "acs": 74,
+            "k": 3,
+            "d": 18,
+            "a": 8,
+            "diff": -15,
+            "kast": "0%",
+            "adr": 56,
+            "hs_percent": "7%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.99,
+            "acs": 272,
+            "k": 22,
+            "d": 12,
+            "a": 9,
+            "diff": 10,
+            "kast": "0%",
+            "adr": 173,
+            "hs_percent": "10%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "kayo"
+          ],
+          "stats": {
+            "rating": 0.94,
+            "acs": 273,
+            "k": 23,
+            "d": 14,
+            "a": 9,
+            "diff": 9,
+            "kast": "0%",
+            "adr": 165,
+            "hs_percent": "16%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.82,
+            "acs": 245,
+            "k": 17,
+            "d": 16,
+            "a": 7,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 167,
+            "hs_percent": "17%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.67,
+            "acs": 206,
+            "k": 14,
+            "d": 16,
+            "a": 11,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 131,
+            "hs_percent": "11%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "midCity",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.62,
+            "acs": 175,
+            "k": 14,
+            "d": 15,
+            "a": 5,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 120,
+            "hs_percent": "21%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "map": "Pearl",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "THEnd",
+          "nationality": "cn",
+          "agents": [
+            "tejo"
+          ],
+          "stats": {
+            "rating": 1.41,
+            "acs": 328,
+            "k": 19,
+            "d": 5,
+            "a": 2,
+            "diff": 14,
+            "kast": "0%",
+            "adr": 187,
+            "hs_percent": "22%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "Cantsayb",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.93,
+            "acs": 236,
+            "k": 12,
+            "d": 8,
+            "a": 1,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 188,
+            "hs_percent": "34%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "koi",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.91,
+            "acs": 243,
+            "k": 14,
+            "d": 7,
+            "a": 3,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 136,
+            "hs_percent": "20%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "氧化锌",
+          "nationality": "cn",
+          "agents": [
+            "breach"
+          ],
+          "stats": {
+            "rating": 0.8,
+            "acs": 224,
+            "k": 11,
+            "d": 9,
+            "a": 4,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 156,
+            "hs_percent": "26%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "邪恶鲱鱼罐头",
+          "nationality": "cn",
+          "agents": [
+            "iso"
+          ],
+          "stats": {
+            "rating": 0.76,
+            "acs": 213,
+            "k": 9,
+            "d": 10,
+            "a": 2,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 167,
+            "hs_percent": "30%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 1,
+      "players": [
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 1.21,
+            "acs": 382,
+            "k": 18,
+            "d": 13,
+            "a": 3,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 251,
+            "hs_percent": "28%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.45,
+            "acs": 152,
+            "k": 6,
+            "d": 13,
+            "a": 8,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 91,
+            "hs_percent": "16%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.42,
+            "acs": 136,
+            "k": 6,
+            "d": 13,
+            "a": 2,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 86,
+            "hs_percent": "17%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "killjoy"
+          ],
+          "stats": {
+            "rating": 0.35,
+            "acs": 107,
+            "k": 5,
+            "d": 13,
+            "a": 2,
+            "diff": -8,
+            "kast": "0%",
+            "adr": 77,
+            "hs_percent": "12%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.28,
+            "acs": 94,
+            "k": 4,
+            "d": 13,
+            "a": 4,
+            "diff": -9,
+            "kast": "0%",
+            "adr": 57,
+            "hs_percent": "8%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

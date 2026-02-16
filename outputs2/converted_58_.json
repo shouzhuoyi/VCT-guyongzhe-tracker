@@ -1,0 +1,296 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 17,
+      "players": [
+        {
+          "name": "s2mple",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 1.04,
+            "acs": 289,
+            "k": 34,
+            "d": 19,
+            "a": 4,
+            "diff": 15,
+            "kast": "0%",
+            "adr": 188,
+            "hs_percent": "26%",
+            "fk": 7,
+            "fd": 0,
+            "fkfd_diff": 7
+          }
+        },
+        {
+          "name": "f0rsakeN",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 0.71,
+            "acs": 210,
+            "k": 24,
+            "d": 25,
+            "a": 6,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 142,
+            "hs_percent": "24%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "GumaYusi",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 0.69,
+            "acs": 211,
+            "k": 25,
+            "d": 25,
+            "a": 4,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 132,
+            "hs_percent": "24%",
+            "fk": 5,
+            "fd": 0,
+            "fkfd_diff": 5
+          }
+        },
+        {
+          "name": "紫色很有韵味",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.66,
+            "acs": 199,
+            "k": 20,
+            "d": 21,
+            "a": 17,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 127,
+            "hs_percent": "19%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "种猫得猫i",
+          "nationality": "cn",
+          "agents": [
+            "skye"
+          ],
+          "stats": {
+            "rating": 0.54,
+            "acs": 159,
+            "k": 16,
+            "d": 21,
+            "a": 11,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 105,
+            "hs_percent": "6%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 15,
+      "players": [
+        {
+          "name": "求求别马枪了",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.96,
+            "acs": 279,
+            "k": 30,
+            "d": 20,
+            "a": 9,
+            "diff": 10,
+            "kast": "0%",
+            "adr": 180,
+            "hs_percent": "26%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.79,
+            "acs": 238,
+            "k": 26,
+            "d": 24,
+            "a": 7,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 155,
+            "hs_percent": "31%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 0.62,
+            "acs": 180,
+            "k": 20,
+            "d": 24,
+            "a": 3,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 125,
+            "hs_percent": "26%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.6,
+            "acs": 183,
+            "k": 19,
+            "d": 26,
+            "a": 5,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 125,
+            "hs_percent": "17%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.52,
+            "acs": 151,
+            "k": 16,
+            "d": 26,
+            "a": 5,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 112,
+            "hs_percent": "19%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

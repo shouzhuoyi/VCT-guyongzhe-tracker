@@ -1,0 +1,270 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "上帅下大",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 1.36,
+            "acs": 408,
+            "k": 26,
+            "d": 14,
+            "a": 9,
+            "diff": 12,
+            "kast": "0%",
+            "adr": 270,
+            "hs_percent": "26%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        },
+        {
+          "name": "Eternity",
+          "nationality": "cn",
+          "agents": [
+            "skye"
+          ],
+          "stats": {
+            "rating": 1.02,
+            "acs": 283,
+            "k": 21,
+            "d": 12,
+            "a": 8,
+            "diff": 9,
+            "kast": "0%",
+            "adr": 187,
+            "hs_percent": "35%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "葡萄成熟时",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.8,
+            "acs": 218,
+            "k": 16,
+            "d": 11,
+            "a": 5,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 141,
+            "hs_percent": "25%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "我很神秘",
+          "nationality": "cn",
+          "agents": [
+            "deadlock"
+          ],
+          "stats": {
+            "rating": 0.63,
+            "acs": 150,
+            "k": 11,
+            "d": 8,
+            "a": 3,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 106,
+            "hs_percent": "45%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "Zzz",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.57,
+            "acs": 179,
+            "k": 12,
+            "d": 16,
+            "a": 5,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 112,
+            "hs_percent": "26%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 6,
+      "players": [
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.13,
+            "acs": 349,
+            "k": 22,
+            "d": 16,
+            "a": 6,
+            "diff": 6,
+            "kast": "0%",
+            "adr": 229,
+            "hs_percent": "25%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.59,
+            "acs": 196,
+            "k": 12,
+            "d": 18,
+            "a": 5,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 118,
+            "hs_percent": "43%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 187,
+            "k": 12,
+            "d": 17,
+            "a": 5,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 113,
+            "hs_percent": "20%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "raze"
+          ],
+          "stats": {
+            "rating": 0.39,
+            "acs": 126,
+            "k": 8,
+            "d": 19,
+            "a": 2,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 83,
+            "hs_percent": "20%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.35,
+            "acs": 105,
+            "k": 7,
+            "d": 16,
+            "a": 8,
+            "diff": -9,
+            "kast": "0%",
+            "adr": 73,
+            "hs_percent": "15%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

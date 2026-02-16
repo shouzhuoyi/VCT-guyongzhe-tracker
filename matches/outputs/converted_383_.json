@@ -1,0 +1,264 @@
+{
+  "map": "Breeze",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 3,
+      "players": [
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 1.37,
+            "acs": 444,
+            "k": 24,
+            "d": 13,
+            "a": 0,
+            "diff": 11,
+            "kast": "0%",
+            "adr": 258,
+            "hs_percent": "25%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "gekko"
+          ],
+          "stats": {
+            "rating": 0.74,
+            "acs": 210,
+            "k": 12,
+            "d": 13,
+            "a": 0,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 157,
+            "hs_percent": "36%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "waylay"
+          ],
+          "stats": {
+            "rating": 0.38,
+            "acs": 114,
+            "k": 4,
+            "d": 14,
+            "a": 5,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 94,
+            "hs_percent": "9%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.29,
+            "acs": 91,
+            "k": 5,
+            "d": 11,
+            "a": 4,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 49,
+            "hs_percent": "4%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "iso"
+          ],
+          "stats": {
+            "rating": 0.18,
+            "acs": 56,
+            "k": 1,
+            "d": 14,
+            "a": 2,
+            "diff": -13,
+            "kast": "0%",
+            "adr": 48,
+            "hs_percent": "7%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "我是你隔壁王姐",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 1.21,
+            "acs": 319,
+            "k": 18,
+            "d": 8,
+            "a": 5,
+            "diff": 10,
+            "kast": "0%",
+            "adr": 214,
+            "hs_percent": "41%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "棉花糖",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 1.11,
+            "acs": 230,
+            "k": 16,
+            "d": 5,
+            "a": 4,
+            "diff": 11,
+            "kast": "0%",
+            "adr": 143,
+            "hs_percent": "13%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "豆包OvO",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.94,
+            "acs": 299,
+            "k": 17,
+            "d": 13,
+            "a": 1,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 176,
+            "hs_percent": "22%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        },
+        {
+          "name": "李京泽",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 0.56,
+            "acs": 162,
+            "k": 9,
+            "d": 10,
+            "a": 1,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 103,
+            "hs_percent": "8%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "柚可o",
+          "nationality": "cn",
+          "agents": [
+            "gekko"
+          ],
+          "stats": {
+            "rating": 0.41,
+            "acs": 122,
+            "k": 5,
+            "d": 10,
+            "a": 8,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 86,
+            "hs_percent": "9%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

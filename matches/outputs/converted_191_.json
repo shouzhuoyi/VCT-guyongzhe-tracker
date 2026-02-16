@@ -1,0 +1,264 @@
+{
+  "map": "Haven",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 1.4,
+            "acs": 422,
+            "k": 25,
+            "d": 11,
+            "a": 3,
+            "diff": 14,
+            "kast": "0%",
+            "adr": 247,
+            "hs_percent": "13%",
+            "fk": 8,
+            "fd": 0,
+            "fkfd_diff": 8
+          }
+        },
+        {
+          "name": "柳木诗梦是天",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 1.19,
+            "acs": 362,
+            "k": 21,
+            "d": 12,
+            "a": 4,
+            "diff": 9,
+            "kast": "0%",
+            "adr": 221,
+            "hs_percent": "24%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.83,
+            "acs": 227,
+            "k": 12,
+            "d": 9,
+            "a": 5,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 158,
+            "hs_percent": "12%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.66,
+            "acs": 192,
+            "k": 11,
+            "d": 10,
+            "a": 10,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 118,
+            "hs_percent": "5%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.37,
+            "acs": 111,
+            "k": 6,
+            "d": 11,
+            "a": 7,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 69,
+            "hs_percent": "3%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 3,
+      "players": [
+        {
+          "name": "鹤秋ym",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.9,
+            "acs": 289,
+            "k": 15,
+            "d": 16,
+            "a": 4,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 190,
+            "hs_percent": "19%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "翻斗人七壮壮妈",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.73,
+            "acs": 231,
+            "k": 11,
+            "d": 15,
+            "a": 4,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 158,
+            "hs_percent": "32%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "天星权",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.56,
+            "acs": 177,
+            "k": 10,
+            "d": 14,
+            "a": 2,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 111,
+            "hs_percent": "17%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "状态不好你亲亲它",
+          "nationality": "cn",
+          "agents": [
+            "gekko"
+          ],
+          "stats": {
+            "rating": 0.51,
+            "acs": 160,
+            "k": 9,
+            "d": 15,
+            "a": 5,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 106,
+            "hs_percent": "9%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "jamsfa",
+          "nationality": "cn",
+          "agents": [
+            "killjoy"
+          ],
+          "stats": {
+            "rating": 0.49,
+            "acs": 152,
+            "k": 8,
+            "d": 15,
+            "a": 4,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 104,
+            "hs_percent": "16%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

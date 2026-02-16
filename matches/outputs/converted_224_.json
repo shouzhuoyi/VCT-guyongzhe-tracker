@@ -1,0 +1,274 @@
+{
+  "map": "/Game/Maps/Infinity/Infinity",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "马尔科",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 1.31,
+            "acs": 354,
+            "k": 25,
+            "d": 10,
+            "a": 3,
+            "diff": 15,
+            "kast": "0%",
+            "adr": 224,
+            "hs_percent": "20%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "小三的邀请",
+          "nationality": "cn",
+          "agents": [
+            "kayo"
+          ],
+          "stats": {
+            "rating": 0.96,
+            "acs": 255,
+            "k": 21,
+            "d": 12,
+            "a": 11,
+            "diff": 9,
+            "kast": "0%",
+            "adr": 171,
+            "hs_percent": "38%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "Eternity",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 0.73,
+            "acs": 214,
+            "k": 15,
+            "d": 17,
+            "a": 7,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 154,
+            "hs_percent": "30%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "阴暗静步男",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.67,
+            "acs": 199,
+            "k": 15,
+            "d": 19,
+            "a": 8,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 144,
+            "hs_percent": "26%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "他们叫我菜就多恋",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.29,
+            "acs": 94,
+            "k": 6,
+            "d": 18,
+            "a": 3,
+            "diff": -12,
+            "kast": "0%",
+            "adr": 59,
+            "hs_percent": "21%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 8,
+      "players": [
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.01,
+            "acs": 296,
+            "k": 23,
+            "d": 17,
+            "a": 2,
+            "diff": 6,
+            "kast": "0%",
+            "adr": 206,
+            "hs_percent": "29%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "柳木诗梦是天",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.76,
+            "acs": 230,
+            "k": 17,
+            "d": 15,
+            "a": 9,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 140,
+            "hs_percent": "11%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.69,
+            "acs": 219,
+            "k": 15,
+            "d": 16,
+            "a": 7,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 130,
+            "hs_percent": "8%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.48,
+            "acs": 145,
+            "k": 10,
+            "d": 18,
+            "a": 3,
+            "diff": -8,
+            "kast": "0%",
+            "adr": 104,
+            "hs_percent": "16%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "Vans",
+          "nationality": "cn",
+          "agents": [
+            "veto"
+          ],
+          "stats": {
+            "rating": 0.45,
+            "acs": 137,
+            "k": 10,
+            "d": 16,
+            "a": 1,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 87,
+            "hs_percent": "20%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

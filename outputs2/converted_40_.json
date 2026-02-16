@@ -1,0 +1,274 @@
+{
+  "map": "Pearl",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "巴黎的朱",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.26,
+            "acs": 360,
+            "k": 27,
+            "d": 13,
+            "a": 1,
+            "diff": 14,
+            "kast": "0%",
+            "adr": 232,
+            "hs_percent": "36%",
+            "fk": 7,
+            "fd": 0,
+            "fkfd_diff": 7
+          }
+        },
+        {
+          "name": "我一直在哭",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.85,
+            "acs": 249,
+            "k": 19,
+            "d": 15,
+            "a": 8,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 163,
+            "hs_percent": "19%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        },
+        {
+          "name": "清欢小猪",
+          "nationality": "cn",
+          "agents": [
+            "waylay"
+          ],
+          "stats": {
+            "rating": 0.75,
+            "acs": 193,
+            "k": 15,
+            "d": 11,
+            "a": 4,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 138,
+            "hs_percent": "26%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "翰林子墨Z1mo",
+          "nationality": "cn",
+          "agents": [
+            "tejo"
+          ],
+          "stats": {
+            "rating": 0.54,
+            "acs": 157,
+            "k": 11,
+            "d": 14,
+            "a": 8,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 104,
+            "hs_percent": "37%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "贝肯尼",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.5,
+            "acs": 144,
+            "k": 12,
+            "d": 15,
+            "a": 1,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 93,
+            "hs_percent": "17%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 8,
+      "players": [
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.86,
+            "acs": 244,
+            "k": 18,
+            "d": 14,
+            "a": 5,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 169,
+            "hs_percent": "23%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "小紫天天开心",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.73,
+            "acs": 217,
+            "k": 16,
+            "d": 17,
+            "a": 4,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 151,
+            "hs_percent": "26%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "killjoy"
+          ],
+          "stats": {
+            "rating": 0.61,
+            "acs": 187,
+            "k": 13,
+            "d": 17,
+            "a": 2,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 125,
+            "hs_percent": "16%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "zhrqp",
+          "nationality": "cn",
+          "agents": [
+            "kayo"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 176,
+            "k": 12,
+            "d": 16,
+            "a": 6,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 115,
+            "hs_percent": "19%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "颖蛋111",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.45,
+            "acs": 140,
+            "k": 9,
+            "d": 20,
+            "a": 2,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 98,
+            "hs_percent": "21%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

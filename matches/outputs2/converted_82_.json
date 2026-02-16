@@ -1,0 +1,258 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "求求别马枪了",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 1.8,
+            "acs": 349,
+            "k": 17,
+            "d": 3,
+            "a": 3,
+            "diff": 14,
+            "kast": "0%",
+            "adr": 212,
+            "hs_percent": "32%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.34,
+            "acs": 333,
+            "k": 17,
+            "d": 5,
+            "a": 2,
+            "diff": 12,
+            "kast": "0%",
+            "adr": 181,
+            "hs_percent": "34%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 1.14,
+            "acs": 277,
+            "k": 12,
+            "d": 5,
+            "a": 3,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 195,
+            "hs_percent": "29%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.73,
+            "acs": 234,
+            "k": 11,
+            "d": 12,
+            "a": 3,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 144,
+            "hs_percent": "36%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.52,
+            "acs": 108,
+            "k": 5,
+            "d": 4,
+            "a": 3,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 87,
+            "hs_percent": "15%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 0,
+      "players": [
+        {
+          "name": "这游戏是玩什么的",
+          "nationality": "cn",
+          "agents": [
+            "skye"
+          ],
+          "stats": {
+            "rating": 0.66,
+            "acs": 220,
+            "k": 10,
+            "d": 11,
+            "a": 2,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 117,
+            "hs_percent": "4%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "超级干拉人",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.53,
+            "acs": 171,
+            "k": 7,
+            "d": 12,
+            "a": 2,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 108,
+            "hs_percent": "24%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "散散散散尸",
+          "nationality": "cn",
+          "agents": [
+            "raze"
+          ],
+          "stats": {
+            "rating": 0.46,
+            "acs": 140,
+            "k": 6,
+            "d": 13,
+            "a": 1,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 102,
+            "hs_percent": "14%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "栗子lr",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.3,
+            "acs": 97,
+            "k": 3,
+            "d": 14,
+            "a": 2,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 69,
+            "hs_percent": "13%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "霓脸蛋怎么虹虹的",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 0.2,
+            "acs": 69,
+            "k": 3,
+            "d": 12,
+            "a": 0,
+            "diff": -9,
+            "kast": "0%",
+            "adr": 36,
+            "hs_percent": "9%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

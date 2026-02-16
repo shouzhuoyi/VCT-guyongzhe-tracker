@@ -1,0 +1,264 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 3,
+      "players": [
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.99,
+            "acs": 294,
+            "k": 15,
+            "d": 12,
+            "a": 4,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 207,
+            "hs_percent": "22%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.66,
+            "acs": 198,
+            "k": 11,
+            "d": 15,
+            "a": 3,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 142,
+            "hs_percent": "29%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.61,
+            "acs": 190,
+            "k": 10,
+            "d": 14,
+            "a": 7,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 128,
+            "hs_percent": "23%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "skye"
+          ],
+          "stats": {
+            "rating": 0.39,
+            "acs": 126,
+            "k": 5,
+            "d": 15,
+            "a": 6,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 88,
+            "hs_percent": "8%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.28,
+            "acs": 87,
+            "k": 4,
+            "d": 15,
+            "a": 3,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 61,
+            "hs_percent": "14%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "NRGbrawk",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 1.51,
+            "acs": 448,
+            "k": 27,
+            "d": 10,
+            "a": 3,
+            "diff": 17,
+            "kast": "0%",
+            "adr": 253,
+            "hs_percent": "15%",
+            "fk": 7,
+            "fd": 0,
+            "fkfd_diff": 7
+          }
+        },
+        {
+          "name": "Cai",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 1.28,
+            "acs": 329,
+            "k": 20,
+            "d": 8,
+            "a": 4,
+            "diff": 12,
+            "kast": "0%",
+            "adr": 225,
+            "hs_percent": "25%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "跟我的奥丁说去吧",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.65,
+            "acs": 202,
+            "k": 11,
+            "d": 11,
+            "a": 10,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 115,
+            "hs_percent": "0%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "优乐美小白",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.45,
+            "acs": 117,
+            "k": 7,
+            "d": 7,
+            "a": 7,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 71,
+            "hs_percent": "3%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "Caimi",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.45,
+            "acs": 139,
+            "k": 6,
+            "d": 9,
+            "a": 10,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 84,
+            "hs_percent": "6%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "map": "Split",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "Ethereal",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 1.33,
+            "acs": 423,
+            "k": 28,
+            "d": 16,
+            "a": 2,
+            "diff": 12,
+            "kast": "0%",
+            "adr": 257,
+            "hs_percent": "24%",
+            "fk": 5,
+            "fd": 0,
+            "fkfd_diff": 5
+          }
+        },
+        {
+          "name": "222",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 1.07,
+            "acs": 301,
+            "k": 21,
+            "d": 12,
+            "a": 7,
+            "diff": 9,
+            "kast": "0%",
+            "adr": 198,
+            "hs_percent": "17%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "原神高手",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.89,
+            "acs": 238,
+            "k": 19,
+            "d": 11,
+            "a": 7,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 152,
+            "hs_percent": "18%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "积累功德的木鱼",
+          "nationality": "cn",
+          "agents": [
+            "kayo"
+          ],
+          "stats": {
+            "rating": 0.39,
+            "acs": 120,
+            "k": 9,
+            "d": 15,
+            "a": 7,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 71,
+            "hs_percent": "10%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "屎到临头想搅便",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.34,
+            "acs": 106,
+            "k": 6,
+            "d": 17,
+            "a": 7,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 75,
+            "hs_percent": "16%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 7,
+      "players": [
+        {
+          "name": "求求别马枪了",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.19,
+            "acs": 362,
+            "k": 26,
+            "d": 15,
+            "a": 3,
+            "diff": 11,
+            "kast": "0%",
+            "adr": 225,
+            "hs_percent": "25%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.8,
+            "acs": 249,
+            "k": 17,
+            "d": 18,
+            "a": 5,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 166,
+            "hs_percent": "16%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "breach"
+          ],
+          "stats": {
+            "rating": 0.6,
+            "acs": 180,
+            "k": 11,
+            "d": 17,
+            "a": 5,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 131,
+            "hs_percent": "29%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "omen"
+          ],
+          "stats": {
+            "rating": 0.54,
+            "acs": 167,
+            "k": 13,
+            "d": 18,
+            "a": 3,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 106,
+            "hs_percent": "28%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.19,
+            "acs": 58,
+            "k": 4,
+            "d": 15,
+            "a": 4,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 38,
+            "hs_percent": "13%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

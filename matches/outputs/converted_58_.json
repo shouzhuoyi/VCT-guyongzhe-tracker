@@ -1,0 +1,264 @@
+{
+  "map": "Breeze",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 3,
+      "players": [
+        {
+          "name": "Alive",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.6,
+            "acs": 191,
+            "k": 10,
+            "d": 14,
+            "a": 1,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 121,
+            "hs_percent": "43%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "额就吃饭",
+          "nationality": "cn",
+          "agents": [
+            "kayo"
+          ],
+          "stats": {
+            "rating": 0.54,
+            "acs": 170,
+            "k": 8,
+            "d": 14,
+            "a": 3,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 116,
+            "hs_percent": "6%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "练枪三分运气七分",
+          "nationality": "cn",
+          "agents": [
+            "deadlock"
+          ],
+          "stats": {
+            "rating": 0.39,
+            "acs": 123,
+            "k": 6,
+            "d": 15,
+            "a": 4,
+            "diff": -9,
+            "kast": "0%",
+            "adr": 83,
+            "hs_percent": "9%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "BobHui",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.3,
+            "acs": 94,
+            "k": 5,
+            "d": 15,
+            "a": 2,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 61,
+            "hs_percent": "50%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "Maple1ca",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.28,
+            "acs": 84,
+            "k": 4,
+            "d": 14,
+            "a": 6,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 61,
+            "hs_percent": "25%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "苹果小香香",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 1.41,
+            "acs": 379,
+            "k": 22,
+            "d": 8,
+            "a": 4,
+            "diff": 14,
+            "kast": "0%",
+            "adr": 238,
+            "hs_percent": "23%",
+            "fk": 8,
+            "fd": 0,
+            "fkfd_diff": 8
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 1.0,
+            "acs": 240,
+            "k": 14,
+            "d": 6,
+            "a": 6,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 154,
+            "hs_percent": "27%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "月光式",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.9,
+            "acs": 214,
+            "k": 12,
+            "d": 6,
+            "a": 4,
+            "diff": 6,
+            "kast": "0%",
+            "adr": 147,
+            "hs_percent": "26%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.89,
+            "acs": 234,
+            "k": 16,
+            "d": 8,
+            "a": 0,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 134,
+            "hs_percent": "19%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "harbor"
+          ],
+          "stats": {
+            "rating": 0.6,
+            "acs": 131,
+            "k": 8,
+            "d": 5,
+            "a": 4,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 84,
+            "hs_percent": "16%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

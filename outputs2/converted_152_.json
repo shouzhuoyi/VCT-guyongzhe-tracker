@@ -1,0 +1,258 @@
+{
+  "map": "/Game/Maps/Infinity/Infinity",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 0,
+      "players": [
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.29,
+            "acs": 71,
+            "k": 3,
+            "d": 4,
+            "a": 1,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 39,
+            "hs_percent": "11%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.27,
+            "acs": 52,
+            "k": 3,
+            "d": 4,
+            "a": 0,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 39,
+            "hs_percent": "22%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 0.13,
+            "acs": 35,
+            "k": 1,
+            "d": 4,
+            "a": 0,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 24,
+            "hs_percent": "17%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.12,
+            "acs": 29,
+            "k": 1,
+            "d": 4,
+            "a": 1,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 19,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.1,
+            "acs": 27,
+            "k": 1,
+            "d": 4,
+            "a": 1,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 14,
+            "hs_percent": "36%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "看我力挽狂澜",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 1.71,
+            "acs": 159,
+            "k": 8,
+            "d": 1,
+            "a": 1,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 89,
+            "hs_percent": "21%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "乌云慢",
+          "nationality": "cn",
+          "agents": [
+            "harbor"
+          ],
+          "stats": {
+            "rating": 0.6,
+            "acs": 124,
+            "k": 5,
+            "d": 3,
+            "a": 3,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 82,
+            "hs_percent": "21%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "普罗米修斯",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 0.6,
+            "acs": 44,
+            "k": 3,
+            "d": 1,
+            "a": 2,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 24,
+            "hs_percent": "12%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "归路无雨",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.39,
+            "acs": 27,
+            "k": 2,
+            "d": 1,
+            "a": 0,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 12,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "比比各",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 0.22,
+            "acs": 38,
+            "k": 2,
+            "d": 3,
+            "a": 1,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 29,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

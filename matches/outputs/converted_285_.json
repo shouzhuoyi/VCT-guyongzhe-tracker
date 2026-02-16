@@ -1,0 +1,280 @@
+{
+  "map": "/Game/Maps/Infinity/Infinity",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "mommy",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.44,
+            "acs": 410,
+            "k": 33,
+            "d": 14,
+            "a": 5,
+            "diff": 19,
+            "kast": "0%",
+            "adr": 266,
+            "hs_percent": "26%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "国王信徒",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.88,
+            "acs": 254,
+            "k": 23,
+            "d": 18,
+            "a": 7,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 171,
+            "hs_percent": "18%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "奥特兽打小怪曼",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.82,
+            "acs": 239,
+            "k": 19,
+            "d": 16,
+            "a": 3,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 161,
+            "hs_percent": "20%",
+            "fk": 7,
+            "fd": 0,
+            "fkfd_diff": 7
+          }
+        },
+        {
+          "name": "艾斯卡诺0714",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.56,
+            "acs": 162,
+            "k": 13,
+            "d": 16,
+            "a": 7,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 111,
+            "hs_percent": "23%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "突击手王浩",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.36,
+            "acs": 102,
+            "k": 8,
+            "d": 12,
+            "a": 9,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 62,
+            "hs_percent": "18%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 11,
+      "players": [
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 0.86,
+            "acs": 265,
+            "k": 22,
+            "d": 16,
+            "a": 1,
+            "diff": 6,
+            "kast": "0%",
+            "adr": 152,
+            "hs_percent": "24%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.84,
+            "acs": 264,
+            "k": 22,
+            "d": 22,
+            "a": 5,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 169,
+            "hs_percent": "21%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "iso"
+          ],
+          "stats": {
+            "rating": 0.71,
+            "acs": 226,
+            "k": 18,
+            "d": 20,
+            "a": 4,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 140,
+            "hs_percent": "24%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.33,
+            "acs": 93,
+            "k": 7,
+            "d": 18,
+            "a": 6,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 73,
+            "hs_percent": "24%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.29,
+            "acs": 88,
+            "k": 6,
+            "d": 20,
+            "a": 5,
+            "diff": -14,
+            "kast": "0%",
+            "adr": 62,
+            "hs_percent": "9%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

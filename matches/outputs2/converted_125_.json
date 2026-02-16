@@ -1,0 +1,266 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 4,
+      "players": [
+        {
+          "name": "雨下此方",
+          "nationality": "cn",
+          "agents": [
+            "iso"
+          ],
+          "stats": {
+            "rating": 0.97,
+            "acs": 296,
+            "k": 17,
+            "d": 14,
+            "a": 2,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 199,
+            "hs_percent": "19%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "李嘉图",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 0.89,
+            "acs": 264,
+            "k": 15,
+            "d": 15,
+            "a": 6,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 193,
+            "hs_percent": "29%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "吃吧唧的王者",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.75,
+            "acs": 235,
+            "k": 13,
+            "d": 14,
+            "a": 1,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 149,
+            "hs_percent": "31%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "纯爱乖小狗",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.42,
+            "acs": 127,
+            "k": 7,
+            "d": 12,
+            "a": 5,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 82,
+            "hs_percent": "5%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "丰川祥子",
+          "nationality": "cn",
+          "agents": [
+            "omen"
+          ],
+          "stats": {
+            "rating": 0.27,
+            "acs": 78,
+            "k": 4,
+            "d": 8,
+            "a": 3,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 47,
+            "hs_percent": "15%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 1.76,
+            "acs": 422,
+            "k": 27,
+            "d": 7,
+            "a": 2,
+            "diff": 20,
+            "kast": "0%",
+            "adr": 290,
+            "hs_percent": "31%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        },
+        {
+          "name": "花泽king",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.6,
+            "acs": 187,
+            "k": 12,
+            "d": 14,
+            "a": 4,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 110,
+            "hs_percent": "12%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "不败金枪",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 170,
+            "k": 10,
+            "d": 11,
+            "a": 9,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 107,
+            "hs_percent": "2%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "哈哈哈哈123",
+          "nationality": "cn",
+          "agents": [
+            "skye"
+          ],
+          "stats": {
+            "rating": 0.57,
+            "acs": 174,
+            "k": 9,
+            "d": 11,
+            "a": 11,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 109,
+            "hs_percent": "7%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "交给我你就闹心吧",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.31,
+            "acs": 89,
+            "k": 5,
+            "d": 14,
+            "a": 4,
+            "diff": -9,
+            "kast": "0%",
+            "adr": 69,
+            "hs_percent": "15%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

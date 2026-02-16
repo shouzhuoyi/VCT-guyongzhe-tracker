@@ -1,0 +1,262 @@
+{
+  "map": "Breeze",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.67,
+            "acs": 108,
+            "k": 5,
+            "d": 2,
+            "a": 0,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 62,
+            "hs_percent": "11%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "柳木诗梦是天",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 0.54,
+            "acs": 68,
+            "k": 4,
+            "d": 2,
+            "a": 0,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 61,
+            "hs_percent": "36%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "Vans",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.16,
+            "acs": 22,
+            "k": 1,
+            "d": 2,
+            "a": 0,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 22,
+            "hs_percent": "25%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 0.15,
+            "acs": 17,
+            "k": 1,
+            "d": 2,
+            "a": 0,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 20,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "Albee",
+          "nationality": "cn",
+          "agents": [
+            "omen"
+          ],
+          "stats": {
+            "rating": 0.03,
+            "acs": 10,
+            "k": 0,
+            "d": 3,
+            "a": 1,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 8,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 2,
+      "players": [
+        {
+          "name": "Remain",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.5,
+            "acs": 92,
+            "k": 5,
+            "d": 3,
+            "a": 1,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 55,
+            "hs_percent": "20%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "玉冰冰",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 0.26,
+            "acs": 33,
+            "k": 2,
+            "d": 2,
+            "a": 0,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 24,
+            "hs_percent": "14%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "sweet",
+          "nationality": "cn",
+          "agents": [
+            "harbor"
+          ],
+          "stats": {
+            "rating": 0.24,
+            "acs": 31,
+            "k": 2,
+            "d": 2,
+            "a": 0,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 17,
+            "hs_percent": "12%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "周杰伦",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.22,
+            "acs": 25,
+            "k": 2,
+            "d": 2,
+            "a": 0,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 10,
+            "hs_percent": "25%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "张凌赫",
+          "nationality": "cn",
+          "agents": [
+            "gekko"
+          ],
+          "stats": {
+            "rating": 0.0,
+            "acs": 0,
+            "k": 0,
+            "d": 2,
+            "a": 0,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

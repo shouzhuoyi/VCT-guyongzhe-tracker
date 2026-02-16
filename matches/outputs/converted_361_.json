@@ -1,0 +1,270 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 6,
+      "players": [
+        {
+          "name": "愤怒西蓝花",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.96,
+            "acs": 301,
+            "k": 19,
+            "d": 16,
+            "a": 0,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 192,
+            "hs_percent": "34%",
+            "fk": 7,
+            "fd": 0,
+            "fkfd_diff": 7
+          }
+        },
+        {
+          "name": "HsevenT",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.66,
+            "acs": 190,
+            "k": 14,
+            "d": 16,
+            "a": 1,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 137,
+            "hs_percent": "28%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "ZZKing",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.61,
+            "acs": 189,
+            "k": 13,
+            "d": 15,
+            "a": 6,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 115,
+            "hs_percent": "16%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "一番星",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.4,
+            "acs": 125,
+            "k": 7,
+            "d": 14,
+            "a": 5,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 78,
+            "hs_percent": "13%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "可乐鸡翅",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.29,
+            "acs": 92,
+            "k": 6,
+            "d": 17,
+            "a": 4,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 57,
+            "hs_percent": "3%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "柳木诗梦是天",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 1.2,
+            "acs": 326,
+            "k": 22,
+            "d": 10,
+            "a": 2,
+            "diff": 12,
+            "kast": "0%",
+            "adr": 211,
+            "hs_percent": "22%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 1.05,
+            "acs": 323,
+            "k": 22,
+            "d": 14,
+            "a": 4,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 194,
+            "hs_percent": "26%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.94,
+            "acs": 270,
+            "k": 17,
+            "d": 12,
+            "a": 1,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 181,
+            "hs_percent": "23%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "omen"
+          ],
+          "stats": {
+            "rating": 0.47,
+            "acs": 127,
+            "k": 8,
+            "d": 11,
+            "a": 7,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 94,
+            "hs_percent": "9%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.47,
+            "acs": 124,
+            "k": 9,
+            "d": 12,
+            "a": 3,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 92,
+            "hs_percent": "30%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

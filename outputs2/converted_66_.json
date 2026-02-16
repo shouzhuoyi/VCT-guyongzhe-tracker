@@ -1,0 +1,276 @@
+{
+  "map": "Pearl",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "breach"
+          ],
+          "stats": {
+            "rating": 1.24,
+            "acs": 330,
+            "k": 25,
+            "d": 11,
+            "a": 7,
+            "diff": 14,
+            "kast": "0%",
+            "adr": 221,
+            "hs_percent": "33%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 1.08,
+            "acs": 299,
+            "k": 26,
+            "d": 15,
+            "a": 2,
+            "diff": 11,
+            "kast": "0%",
+            "adr": 206,
+            "hs_percent": "27%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "killjoy"
+          ],
+          "stats": {
+            "rating": 0.87,
+            "acs": 244,
+            "k": 15,
+            "d": 13,
+            "a": 7,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 181,
+            "hs_percent": "12%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.68,
+            "acs": 202,
+            "k": 13,
+            "d": 19,
+            "a": 5,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 154,
+            "hs_percent": "21%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "求求别马枪了",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.43,
+            "acs": 136,
+            "k": 8,
+            "d": 17,
+            "a": 5,
+            "diff": -9,
+            "kast": "0%",
+            "adr": 91,
+            "hs_percent": "7%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 9,
+      "players": [
+        {
+          "name": "看片不带耳机",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 0.87,
+            "acs": 259,
+            "k": 19,
+            "d": 17,
+            "a": 5,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 179,
+            "hs_percent": "24%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "dadqwe",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.66,
+            "acs": 190,
+            "k": 13,
+            "d": 17,
+            "a": 9,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 143,
+            "hs_percent": "22%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "陈冠希",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.59,
+            "acs": 184,
+            "k": 15,
+            "d": 18,
+            "a": 5,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 109,
+            "hs_percent": "18%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        },
+        {
+          "name": "Eternity",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.59,
+            "acs": 185,
+            "k": 15,
+            "d": 22,
+            "a": 3,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 120,
+            "hs_percent": "13%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "糕冷小狗",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 164,
+            "k": 13,
+            "d": 13,
+            "a": 6,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 102,
+            "hs_percent": "6%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

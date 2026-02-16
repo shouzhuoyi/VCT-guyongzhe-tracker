@@ -1,0 +1,264 @@
+{
+  "map": "Breeze",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 3,
+      "players": [
+        {
+          "name": "求求别马枪了",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 0.66,
+            "acs": 207,
+            "k": 12,
+            "d": 15,
+            "a": 1,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 132,
+            "hs_percent": "18%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.61,
+            "acs": 186,
+            "k": 11,
+            "d": 14,
+            "a": 0,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 122,
+            "hs_percent": "29%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 190,
+            "k": 9,
+            "d": 15,
+            "a": 3,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 119,
+            "hs_percent": "17%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 0.43,
+            "acs": 128,
+            "k": 5,
+            "d": 14,
+            "a": 4,
+            "diff": -9,
+            "kast": "0%",
+            "adr": 101,
+            "hs_percent": "11%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.3,
+            "acs": 103,
+            "k": 5,
+            "d": 16,
+            "a": 2,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 61,
+            "hs_percent": "13%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "qwerdf",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 1.53,
+            "acs": 413,
+            "k": 24,
+            "d": 9,
+            "a": 3,
+            "diff": 15,
+            "kast": "0%",
+            "adr": 282,
+            "hs_percent": "23%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        },
+        {
+          "name": "北北03",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.33,
+            "acs": 332,
+            "k": 21,
+            "d": 7,
+            "a": 3,
+            "diff": 14,
+            "kast": "0%",
+            "adr": 208,
+            "hs_percent": "6%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "Migy",
+          "nationality": "cn",
+          "agents": [
+            "gekko"
+          ],
+          "stats": {
+            "rating": 0.93,
+            "acs": 222,
+            "k": 13,
+            "d": 6,
+            "a": 5,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 147,
+            "hs_percent": "33%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "翻斗花园图图",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.56,
+            "acs": 162,
+            "k": 10,
+            "d": 10,
+            "a": 9,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 97,
+            "hs_percent": "24%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "i7Lie",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.33,
+            "acs": 102,
+            "k": 6,
+            "d": 10,
+            "a": 2,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 53,
+            "hs_percent": "5%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

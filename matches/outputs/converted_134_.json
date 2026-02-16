@@ -1,0 +1,276 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.88,
+            "acs": 241,
+            "k": 20,
+            "d": 13,
+            "a": 3,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 160,
+            "hs_percent": "30%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.81,
+            "acs": 235,
+            "k": 20,
+            "d": 14,
+            "a": 1,
+            "diff": 6,
+            "kast": "0%",
+            "adr": 138,
+            "hs_percent": "34%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "天马609魏豪",
+          "nationality": "cn",
+          "agents": [
+            "skye"
+          ],
+          "stats": {
+            "rating": 0.71,
+            "acs": 215,
+            "k": 15,
+            "d": 18,
+            "a": 5,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 149,
+            "hs_percent": "25%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.67,
+            "acs": 198,
+            "k": 16,
+            "d": 15,
+            "a": 4,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 124,
+            "hs_percent": "18%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "海上花",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.55,
+            "acs": 170,
+            "k": 12,
+            "d": 18,
+            "a": 3,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 112,
+            "hs_percent": "9%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 9,
+      "players": [
+        {
+          "name": "枪法偏商务",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.0,
+            "acs": 280,
+            "k": 23,
+            "d": 16,
+            "a": 4,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 204,
+            "hs_percent": "53%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "慕容云海",
+          "nationality": "cn",
+          "agents": [
+            "skye"
+          ],
+          "stats": {
+            "rating": 0.82,
+            "acs": 243,
+            "k": 19,
+            "d": 15,
+            "a": 3,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 153,
+            "hs_percent": "24%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "又要说我了对吗",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.62,
+            "acs": 183,
+            "k": 14,
+            "d": 16,
+            "a": 6,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 122,
+            "hs_percent": "28%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "1945日本投降",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.62,
+            "acs": 191,
+            "k": 13,
+            "d": 19,
+            "a": 1,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 130,
+            "hs_percent": "38%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "吴亦凡",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.48,
+            "acs": 143,
+            "k": 9,
+            "d": 17,
+            "a": 8,
+            "diff": -8,
+            "kast": "0%",
+            "adr": 103,
+            "hs_percent": "24%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

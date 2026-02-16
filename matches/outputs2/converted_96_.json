@@ -1,0 +1,288 @@
+{
+  "map": "/Game/Maps/Infinity/Infinity",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "蟑螂恶霸",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.88,
+            "acs": 254,
+            "k": 27,
+            "d": 20,
+            "a": 1,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 167,
+            "hs_percent": "15%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "叱咤月海鱼鱼猫",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.81,
+            "acs": 239,
+            "k": 22,
+            "d": 20,
+            "a": 7,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 162,
+            "hs_percent": "11%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "心在多伦多",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.77,
+            "acs": 240,
+            "k": 22,
+            "d": 22,
+            "a": 6,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 153,
+            "hs_percent": "21%",
+            "fk": 7,
+            "fd": 0,
+            "fkfd_diff": 7
+          }
+        },
+        {
+          "name": "骑上马桶玩漂移",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.51,
+            "acs": 152,
+            "k": 13,
+            "d": 19,
+            "a": 11,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 103,
+            "hs_percent": "15%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "Saber",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.49,
+            "acs": 152,
+            "k": 15,
+            "d": 26,
+            "a": 8,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 103,
+            "hs_percent": "28%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 15,
+      "players": [
+        {
+          "name": "陪小凇许个愿",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.93,
+            "acs": 274,
+            "k": 26,
+            "d": 18,
+            "a": 5,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 173,
+            "hs_percent": "19%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.84,
+            "acs": 240,
+            "k": 23,
+            "d": 19,
+            "a": 9,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 169,
+            "hs_percent": "28%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "omen"
+          ],
+          "stats": {
+            "rating": 0.75,
+            "acs": 229,
+            "k": 23,
+            "d": 22,
+            "a": 13,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 144,
+            "hs_percent": "23%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "Tomorin",
+          "nationality": "cn",
+          "agents": [
+            "deadlock"
+          ],
+          "stats": {
+            "rating": 0.64,
+            "acs": 188,
+            "k": 18,
+            "d": 20,
+            "a": 7,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 127,
+            "hs_percent": "12%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.6,
+            "acs": 186,
+            "k": 16,
+            "d": 21,
+            "a": 8,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 121,
+            "hs_percent": "20%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

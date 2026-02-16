@@ -1,0 +1,276 @@
+{
+  "map": "/Game/Maps/Infinity/Infinity",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 9,
+      "players": [
+        {
+          "name": "没你的远方",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.99,
+            "acs": 312,
+            "k": 24,
+            "d": 21,
+            "a": 4,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 203,
+            "hs_percent": "37%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "城南花已开",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.77,
+            "acs": 224,
+            "k": 20,
+            "d": 16,
+            "a": 1,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 139,
+            "hs_percent": "19%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "记住自由",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.55,
+            "acs": 167,
+            "k": 11,
+            "d": 21,
+            "a": 5,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 126,
+            "hs_percent": "20%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "西宁没有爱",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.35,
+            "acs": 111,
+            "k": 7,
+            "d": 17,
+            "a": 6,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 71,
+            "hs_percent": "8%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "不会系鞋带",
+          "nationality": "cn",
+          "agents": [
+            "deadlock"
+          ],
+          "stats": {
+            "rating": 0.34,
+            "acs": 103,
+            "k": 6,
+            "d": 21,
+            "a": 6,
+            "diff": -15,
+            "kast": "0%",
+            "adr": 80,
+            "hs_percent": "9%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.11,
+            "acs": 283,
+            "k": 24,
+            "d": 11,
+            "a": 4,
+            "diff": 13,
+            "kast": "0%",
+            "adr": 196,
+            "hs_percent": "29%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 1.07,
+            "acs": 307,
+            "k": 23,
+            "d": 13,
+            "a": 3,
+            "diff": 10,
+            "kast": "0%",
+            "adr": 197,
+            "hs_percent": "27%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 1.03,
+            "acs": 291,
+            "k": 24,
+            "d": 14,
+            "a": 8,
+            "diff": 10,
+            "kast": "0%",
+            "adr": 190,
+            "hs_percent": "18%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 0.72,
+            "acs": 214,
+            "k": 14,
+            "d": 15,
+            "a": 4,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 145,
+            "hs_percent": "24%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "omen"
+          ],
+          "stats": {
+            "rating": 0.45,
+            "acs": 141,
+            "k": 11,
+            "d": 18,
+            "a": 8,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 86,
+            "hs_percent": "9%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

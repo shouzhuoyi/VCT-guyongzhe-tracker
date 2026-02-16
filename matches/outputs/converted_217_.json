@@ -1,0 +1,284 @@
+{
+  "map": "Pearl",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 12,
+      "players": [
+        {
+          "name": "大哥哥求求别杀了",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 0.97,
+            "acs": 286,
+            "k": 29,
+            "d": 18,
+            "a": 3,
+            "diff": 11,
+            "kast": "0%",
+            "adr": 172,
+            "hs_percent": "21%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "你听得到",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 0.86,
+            "acs": 253,
+            "k": 21,
+            "d": 20,
+            "a": 10,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 184,
+            "hs_percent": "24%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "我来统治ovo",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.63,
+            "acs": 195,
+            "k": 17,
+            "d": 23,
+            "a": 7,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 129,
+            "hs_percent": "20%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "The987",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.47,
+            "acs": 152,
+            "k": 14,
+            "d": 22,
+            "a": 10,
+            "diff": -8,
+            "kast": "0%",
+            "adr": 88,
+            "hs_percent": "14%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "黑色幽默",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.41,
+            "acs": 123,
+            "k": 9,
+            "d": 21,
+            "a": 11,
+            "diff": -12,
+            "kast": "0%",
+            "adr": 93,
+            "hs_percent": "26%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 14,
+      "players": [
+        {
+          "name": "柳木诗梦是天",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 1.03,
+            "acs": 282,
+            "k": 28,
+            "d": 15,
+            "a": 7,
+            "diff": 13,
+            "kast": "0%",
+            "adr": 183,
+            "hs_percent": "14%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "iso"
+          ],
+          "stats": {
+            "rating": 0.91,
+            "acs": 262,
+            "k": 22,
+            "d": 17,
+            "a": 4,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 181,
+            "hs_percent": "23%",
+            "fk": 5,
+            "fd": 0,
+            "fkfd_diff": 5
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "waylay"
+          ],
+          "stats": {
+            "rating": 0.85,
+            "acs": 246,
+            "k": 20,
+            "d": 21,
+            "a": 7,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 186,
+            "hs_percent": "34%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "Vans",
+          "nationality": "cn",
+          "agents": [
+            "vyse"
+          ],
+          "stats": {
+            "rating": 0.77,
+            "acs": 233,
+            "k": 21,
+            "d": 19,
+            "a": 6,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 149,
+            "hs_percent": "18%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.53,
+            "acs": 160,
+            "k": 13,
+            "d": 18,
+            "a": 9,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 104,
+            "hs_percent": "12%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

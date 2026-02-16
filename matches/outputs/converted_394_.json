@@ -1,0 +1,264 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "张若尘",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 1.06,
+            "acs": 289,
+            "k": 18,
+            "d": 10,
+            "a": 4,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 199,
+            "hs_percent": "33%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "由比滨结衣",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 1.04,
+            "acs": 308,
+            "k": 17,
+            "d": 10,
+            "a": 5,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 187,
+            "hs_percent": "21%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "王骋宇头号主人",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.93,
+            "acs": 298,
+            "k": 15,
+            "d": 13,
+            "a": 11,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 185,
+            "hs_percent": "27%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "陛下息怒息怒",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.87,
+            "acs": 208,
+            "k": 14,
+            "d": 8,
+            "a": 6,
+            "diff": 6,
+            "kast": "0%",
+            "adr": 158,
+            "hs_percent": "39%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "闭嘴朕是皇帝",
+          "nationality": "cn",
+          "agents": [
+            "killjoy"
+          ],
+          "stats": {
+            "rating": 0.62,
+            "acs": 185,
+            "k": 9,
+            "d": 9,
+            "a": 3,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 113,
+            "hs_percent": "15%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 3,
+      "players": [
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 0.89,
+            "acs": 287,
+            "k": 14,
+            "d": 15,
+            "a": 5,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 189,
+            "hs_percent": "37%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.86,
+            "acs": 278,
+            "k": 16,
+            "d": 15,
+            "a": 1,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 169,
+            "hs_percent": "14%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.6,
+            "acs": 195,
+            "k": 11,
+            "d": 14,
+            "a": 3,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 113,
+            "hs_percent": "9%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "omen"
+          ],
+          "stats": {
+            "rating": 0.31,
+            "acs": 98,
+            "k": 5,
+            "d": 15,
+            "a": 4,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 64,
+            "hs_percent": "3%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.28,
+            "acs": 98,
+            "k": 4,
+            "d": 14,
+            "a": 10,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 55,
+            "hs_percent": "8%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "map": "Pearl",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 1,
+      "players": [],
+      "round_history": [
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 0,
+      "players": [
+        {
+          "name": "小王加油叭",
+          "nationality": "cn",
+          "agents": [
+            "iso"
+          ],
+          "stats": {
+            "rating": 13.87,
+            "acs": 12184,
+            "k": 40,
+            "d": 20,
+            "a": 5,
+            "diff": 20,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "抗不了一点压",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 12.14,
+            "acs": 10694,
+            "k": 34,
+            "d": 22,
+            "a": 6,
+            "diff": 12,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "突击手胡图图",
+          "nationality": "cn",
+          "agents": [
+            "gekko"
+          ],
+          "stats": {
+            "rating": 10.66,
+            "acs": 9307,
+            "k": 31,
+            "d": 16,
+            "a": 3,
+            "diff": 15,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "Blink",
+          "nationality": "cn",
+          "agents": [
+            "sova"
+          ],
+          "stats": {
+            "rating": 8.54,
+            "acs": 7465,
+            "k": 26,
+            "d": 18,
+            "a": 2,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "小新卖蜡笔",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 8.33,
+            "acs": 7315,
+            "k": 22,
+            "d": 18,
+            "a": 13,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "幼儿园二把手",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 7.74,
+            "acs": 6794,
+            "k": 23,
+            "d": 20,
+            "a": 2,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "佐杲丸藤战神熊二",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 6.07,
+            "acs": 5330,
+            "k": 16,
+            "d": 18,
+            "a": 7,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "博弈魅力熊大正义",
+          "nationality": "cn",
+          "agents": [
+            "omen"
+          ],
+          "stats": {
+            "rating": 5.83,
+            "acs": 5102,
+            "k": 17,
+            "d": 18,
+            "a": 5,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 4.06,
+            "acs": 3571,
+            "k": 11,
+            "d": 19,
+            "a": 3,
+            "diff": -8,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "别舔哥的泪",
+          "nationality": "cn",
+          "agents": [
+            "waylay"
+          ],
+          "stats": {
+            "rating": 3.87,
+            "acs": 3407,
+            "k": 11,
+            "d": 22,
+            "a": 3,
+            "diff": -11,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "这是个id",
+          "nationality": "cn",
+          "agents": [
+            "vyse"
+          ],
+          "stats": {
+            "rating": 3.59,
+            "acs": 3189,
+            "k": 9,
+            "d": 30,
+            "a": 3,
+            "diff": -21,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "阿笨笨",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 2.28,
+            "acs": 2025,
+            "k": 5,
+            "d": 24,
+            "a": 5,
+            "diff": -19,
+            "kast": "0%",
+            "adr": 0,
+            "hs_percent": "0%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none"
+      ]
+    }
+  ]
+}

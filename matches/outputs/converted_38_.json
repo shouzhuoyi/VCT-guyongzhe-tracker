@@ -1,0 +1,270 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 6,
+      "players": [
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.95,
+            "acs": 307,
+            "k": 19,
+            "d": 16,
+            "a": 6,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 183,
+            "hs_percent": "13%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "易小轩ovo",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.83,
+            "acs": 254,
+            "k": 15,
+            "d": 18,
+            "a": 9,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 184,
+            "hs_percent": "24%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.73,
+            "acs": 228,
+            "k": 14,
+            "d": 18,
+            "a": 5,
+            "diff": -4,
+            "kast": "0%",
+            "adr": 155,
+            "hs_percent": "30%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "小北丿",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.69,
+            "acs": 206,
+            "k": 15,
+            "d": 16,
+            "a": 6,
+            "diff": -1,
+            "kast": "0%",
+            "adr": 138,
+            "hs_percent": "31%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.39,
+            "acs": 115,
+            "k": 8,
+            "d": 15,
+            "a": 3,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 76,
+            "hs_percent": "17%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "犹听春谕",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 1.13,
+            "acs": 367,
+            "k": 27,
+            "d": 18,
+            "a": 4,
+            "diff": 9,
+            "kast": "0%",
+            "adr": 212,
+            "hs_percent": "29%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "i二十三",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.9,
+            "acs": 290,
+            "k": 18,
+            "d": 16,
+            "a": 6,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 174,
+            "hs_percent": "7%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "你比从前快乐",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.77,
+            "acs": 219,
+            "k": 14,
+            "d": 13,
+            "a": 5,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 156,
+            "hs_percent": "41%",
+            "fk": 5,
+            "fd": 0,
+            "fkfd_diff": 5
+          }
+        },
+        {
+          "name": "张耀月",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.62,
+            "acs": 171,
+            "k": 13,
+            "d": 12,
+            "a": 2,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 112,
+            "hs_percent": "30%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "小肥羊的舔狗",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.61,
+            "acs": 179,
+            "k": 11,
+            "d": 13,
+            "a": 8,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 121,
+            "hs_percent": "19%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

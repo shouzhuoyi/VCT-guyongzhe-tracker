@@ -1,0 +1,270 @@
+{
+  "map": "/Game/Maps/Infinity/Infinity",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 6,
+      "players": [
+        {
+          "name": "不懂你的阴雨天",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.88,
+            "acs": 289,
+            "k": 16,
+            "d": 19,
+            "a": 2,
+            "diff": -3,
+            "kast": "0%",
+            "adr": 188,
+            "hs_percent": "24%",
+            "fk": 5,
+            "fd": 0,
+            "fkfd_diff": 5
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.79,
+            "acs": 245,
+            "k": 16,
+            "d": 16,
+            "a": 3,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 160,
+            "hs_percent": "20%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "路人丙",
+          "nationality": "cn",
+          "agents": [
+            "kayo"
+          ],
+          "stats": {
+            "rating": 0.51,
+            "acs": 150,
+            "k": 11,
+            "d": 16,
+            "a": 2,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 103,
+            "hs_percent": "21%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.44,
+            "acs": 134,
+            "k": 7,
+            "d": 14,
+            "a": 5,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 94,
+            "hs_percent": "9%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "4ever",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.26,
+            "acs": 85,
+            "k": 4,
+            "d": 16,
+            "a": 2,
+            "diff": -12,
+            "kast": "0%",
+            "adr": 57,
+            "hs_percent": "21%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "Dagian",
+          "nationality": "cn",
+          "agents": [
+            "vyse"
+          ],
+          "stats": {
+            "rating": 1.13,
+            "acs": 284,
+            "k": 19,
+            "d": 9,
+            "a": 5,
+            "diff": 10,
+            "kast": "0%",
+            "adr": 210,
+            "hs_percent": "29%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "满船清梦入星河",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.97,
+            "acs": 272,
+            "k": 18,
+            "d": 10,
+            "a": 4,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 167,
+            "hs_percent": "15%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "托尔芬",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.78,
+            "acs": 189,
+            "k": 14,
+            "d": 8,
+            "a": 7,
+            "diff": 6,
+            "kast": "0%",
+            "adr": 126,
+            "hs_percent": "19%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "Listen",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.77,
+            "acs": 201,
+            "k": 15,
+            "d": 11,
+            "a": 6,
+            "diff": 4,
+            "kast": "0%",
+            "adr": 143,
+            "hs_percent": "30%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "哥别压力我了",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.66,
+            "acs": 222,
+            "k": 15,
+            "d": 17,
+            "a": 3,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 121,
+            "hs_percent": "16%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

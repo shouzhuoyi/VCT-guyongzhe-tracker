@@ -1,0 +1,276 @@
+{
+  "map": "Pearl",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 9,
+      "players": [
+        {
+          "name": "躲我子弹的是给",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 1.02,
+            "acs": 316,
+            "k": 24,
+            "d": 23,
+            "a": 4,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 221,
+            "hs_percent": "29%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.83,
+            "acs": 255,
+            "k": 17,
+            "d": 19,
+            "a": 7,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 177,
+            "hs_percent": "23%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.66,
+            "acs": 206,
+            "k": 15,
+            "d": 17,
+            "a": 6,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 128,
+            "hs_percent": "4%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 168,
+            "k": 13,
+            "d": 18,
+            "a": 4,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 125,
+            "hs_percent": "31%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "是初见心动",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 0.33,
+            "acs": 100,
+            "k": 8,
+            "d": 18,
+            "a": 1,
+            "diff": -10,
+            "kast": "0%",
+            "adr": 64,
+            "hs_percent": "6%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 13,
+      "players": [
+        {
+          "name": "小澈Z",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 1.03,
+            "acs": 288,
+            "k": 21,
+            "d": 13,
+            "a": 9,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 197,
+            "hs_percent": "19%",
+            "fk": 5,
+            "fd": 0,
+            "fkfd_diff": 5
+          }
+        },
+        {
+          "name": "薯条大王",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.95,
+            "acs": 268,
+            "k": 21,
+            "d": 14,
+            "a": 9,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 181,
+            "hs_percent": "19%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "皮蛋SOLO粥",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 0.92,
+            "acs": 256,
+            "k": 20,
+            "d": 13,
+            "a": 3,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 171,
+            "hs_percent": "17%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "Neytiri",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.73,
+            "acs": 227,
+            "k": 19,
+            "d": 21,
+            "a": 9,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 145,
+            "hs_percent": "22%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "臭屁猪",
+          "nationality": "cn",
+          "agents": [
+            "yoru"
+          ],
+          "stats": {
+            "rating": 0.65,
+            "acs": 194,
+            "k": 14,
+            "d": 16,
+            "a": 9,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 130,
+            "hs_percent": "13%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

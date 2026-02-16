@@ -1,0 +1,264 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "伊吹大西瓜",
+          "nationality": "cn",
+          "agents": [
+            "viper"
+          ],
+          "stats": {
+            "rating": 1.02,
+            "acs": 249,
+            "k": 14,
+            "d": 6,
+            "a": 3,
+            "diff": 8,
+            "kast": "0%",
+            "adr": 161,
+            "hs_percent": "17%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "astra"
+          ],
+          "stats": {
+            "rating": 0.81,
+            "acs": 220,
+            "k": 13,
+            "d": 8,
+            "a": 7,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 132,
+            "hs_percent": "19%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "柳木诗梦是天",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 0.75,
+            "acs": 216,
+            "k": 10,
+            "d": 9,
+            "a": 6,
+            "diff": 1,
+            "kast": "0%",
+            "adr": 148,
+            "hs_percent": "15%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "anorak",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.59,
+            "acs": 147,
+            "k": 10,
+            "d": 7,
+            "a": 3,
+            "diff": 3,
+            "kast": "0%",
+            "adr": 85,
+            "hs_percent": "18%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "neon"
+          ],
+          "stats": {
+            "rating": 0.55,
+            "acs": 170,
+            "k": 10,
+            "d": 10,
+            "a": 1,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 89,
+            "hs_percent": "23%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 3,
+      "players": [
+        {
+          "name": "s1mple",
+          "nationality": "cn",
+          "agents": [
+            "reyna"
+          ],
+          "stats": {
+            "rating": 0.81,
+            "acs": 247,
+            "k": 14,
+            "d": 12,
+            "a": 0,
+            "diff": 2,
+            "kast": "0%",
+            "adr": 154,
+            "hs_percent": "50%",
+            "fk": 6,
+            "fd": 0,
+            "fkfd_diff": 6
+          }
+        },
+        {
+          "name": "青橘念旧人",
+          "nationality": "cn",
+          "agents": [
+            "raze"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 178,
+            "k": 10,
+            "d": 12,
+            "a": 0,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 110,
+            "hs_percent": "10%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "奶奶压枪",
+          "nationality": "cn",
+          "agents": [
+            "clove"
+          ],
+          "stats": {
+            "rating": 0.4,
+            "acs": 114,
+            "k": 6,
+            "d": 12,
+            "a": 2,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 85,
+            "hs_percent": "43%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "荔枝呢",
+          "nationality": "cn",
+          "agents": [
+            "sage"
+          ],
+          "stats": {
+            "rating": 0.38,
+            "acs": 112,
+            "k": 5,
+            "d": 10,
+            "a": 3,
+            "diff": -5,
+            "kast": "0%",
+            "adr": 77,
+            "hs_percent": "25%",
+            "fk": 0,
+            "fd": 0,
+            "fkfd_diff": 0
+          }
+        },
+        {
+          "name": "虫需云力白勺虫且",
+          "nationality": "cn",
+          "agents": [
+            "tejo"
+          ],
+          "stats": {
+            "rating": 0.33,
+            "acs": 100,
+            "k": 5,
+            "d": 11,
+            "a": 2,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 63,
+            "hs_percent": "0%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}

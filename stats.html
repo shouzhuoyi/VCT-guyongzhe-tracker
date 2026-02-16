@@ -2,17 +2,34 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>VCT Tracker - Player Stats</title>
+    <title>VCT Tracker - Archived Stats</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { background: #f2f2f2; font-family: sans-serif; }
-        .vlr-table { border-collapse: collapse; width: 100%; font-size: 13px; background: white; margin-bottom: 24px; table-layout: fixed; }
-        .vlr-table th { color: #7a7a7a; padding: 12px 4px; border-bottom: 1px solid #eee; font-weight: normal; cursor: pointer; user-select: none; transition: background 0.2s; }
+        .vlr-table { border-collapse: collapse; width: 100%; font-size: 13px; background: white; margin-bottom: 24px; table-layout: auto; }
+        
+        /* Draggable Headers */
+        .vlr-table th { 
+            color: #7a7a7a; padding: 12px 6px; border-bottom: 1px solid #eee; 
+            font-weight: normal; cursor: grab; user-select: none; 
+            transition: background 0.2s; white-space: nowrap; 
+        }
+        .vlr-table th:active { cursor: grabbing; }
+        .vlr-table th.dragging { opacity: 0.5; background: #e0f7fa; border: 2px dashed #2979ff; }
+        .vlr-table th.drag-over { border-left: 3px solid #2979ff; } /* Indicator */
+
         .vlr-table th:hover { background-color: #f0f0f0; color: #333; font-weight: bold; }
-        .vlr-table td { padding: 8px 4px; border-bottom: 1px solid #eee; text-align: center; overflow: hidden; }
-        .cell-player { text-align: left !important; padding-left: 12px !important; width: 180px; }
-        .cell-team { text-align: left !important; color: #999; font-size: 11px; }
-        .cell-agents { width: 90px; }
+        
+        .vlr-table td { padding: 8px 6px; border-bottom: 1px solid #eee; text-align: center; vertical-align: middle; }
+        
+        /* Specific Styles */
+        .cell-player { text-align: left !important; padding-left: 12px !important; min-width: 140px; }
+        .cell-team { text-align: left !important; color: #999; font-size: 11px; display: block; }
+        .cell-agents { min-width: 180px; max-width: 300px; } 
+        
+        /* Agent Layout */
+        .agent-container { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-start; }
+        .agent-icon { width: 20px; height: 20px; }
     </style>
 </head>
 <body>
@@ -29,40 +46,59 @@
         </div>
     </nav>
 
-    <div class="max-w-6xl mx-auto p-4">
-        <h1 class="text-2xl font-bold mb-4">Player Statistics (All Matches)</h1>
+    <div class="max-w-[95%] mx-auto p-4">
+        <h1 class="text-2xl font-bold mb-4">Archived Players (Drag Headers to Reorder)</h1>
         
-        <table class="vlr-table shadow-sm" id="statsTable">
-            <thead>
-                <tr>
-                    <th class="cell-player" onclick="sortTable('name')">PLAYER</th>
-                    <th class="cell-agents">AGENTS</th>
-                    <th onclick="sortTable('rounds')">RND</th>
-                    <th onclick="sortTable('rating')">R</th>
-                    <th onclick="sortTable('acs')">ACS</th>
-                    <th onclick="sortTable('kd')">K/D</th>
-                    <th onclick="sortTable('kast')">KAST</th>
-                    <th onclick="sortTable('adr')">ADR</th>
-                    <th onclick="sortTable('kpr')">KPR</th>
-                    <th onclick="sortTable('apr')">APR</th>
-                    <th onclick="sortTable('fkpr')">FKPR</th>
-                    <th onclick="sortTable('fdpr')">FDPR</th>
-                    <th onclick="sortTable('hs')">HS%</th>
-                </tr>
-            </thead>
-            <tbody id="tableBody">
-                <!-- JS handles rendering -->
-            </tbody>
-        </table>
+        <div class="overflow-x-auto">
+            <table class="vlr-table shadow-sm" id="statsTable">
+                <thead>
+                    <tr id="headerRow">
+                        <!-- Default Order -->
+                        <th data-key="name" class="cell-player" draggable="true">PLAYER</th>
+                        <th data-key="agents" class="cell-agents" draggable="true">AGENTS</th>
+                        <th data-key="rounds" draggable="true">RND</th>
+                        <th data-key="rating" draggable="true">R</th>
+                        <th data-key="acs" draggable="true">ACS</th>
+                        <th data-key="k" draggable="true">K</th>
+                        <th data-key="d" draggable="true">D</th>
+                        <th data-key="a" draggable="true">A</th>
+                        <th data-key="kd" draggable="true">K/D</th>
+                        <th data-key="kast" draggable="true">KAST</th>
+                        <th data-key="adr" draggable="true">ADR</th>
+                        <th data-key="kpr" draggable="true">KPR</th>
+                        <th data-key="apr" draggable="true">APR</th>
+                        <th data-key="fkpr" draggable="true">FKPR</th>
+                        <th data-key="fdpr" draggable="true">FDPR</th>
+                        <th data-key="hs" draggable="true">HS%</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- JS handles rendering -->
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <script>
-        const playersData = [{"name":"宇智波斑","team":"Team A","agents":["jett"],"rounds":37,"rating":"2.59","acs":441,"k":61,"d":27,"a":7,"kd":"2.26","kast":83,"adr":271,"hs":37,"kpr":"1.65","apr":"0.19","fkpr":"0.30","fdpr":"0.08"},{"name":"水总会烧开","team":"Team B","agents":["fade","yoru"],"rounds":37,"rating":"1.46","acs":225,"k":29,"d":34,"a":8,"kd":"0.85","kast":77,"adr":152,"hs":23,"kpr":"0.78","apr":"0.22","fkpr":"0.19","fdpr":"0.22"},{"name":"Neymar","team":"Team B","agents":["viper","omen"],"rounds":37,"rating":"1.42","acs":219,"k":29,"d":29,"a":3,"kd":"1.00","kast":92,"adr":137,"hs":23,"kpr":"0.78","apr":"0.08","fkpr":"0.05","fdpr":"0.05"},{"name":"陪小怡许个愿","team":"Team A","agents":["yoru","neon"],"rounds":37,"rating":"1.39","acs":206,"k":29,"d":25,"a":8,"kd":"1.16","kast":76,"adr":141,"hs":24,"kpr":"0.78","apr":"0.22","fkpr":"0.11","fdpr":"0.03"},{"name":"失败尽常态","team":"Team B","agents":["raze","waylay"],"rounds":37,"rating":"1.31","acs":194,"k":27,"d":30,"a":7,"kd":"0.90","kast":75,"adr":122,"hs":30,"kpr":"0.73","apr":"0.19","fkpr":"0.14","fdpr":"0.08"},{"name":"磁力小刺猬","team":"Team B","agents":["tejo","astra"],"rounds":37,"rating":"1.27","acs":190,"k":24,"d":30,"a":9,"kd":"0.80","kast":77,"adr":127,"hs":26,"kpr":"0.65","apr":"0.24","fkpr":"0.05","fdpr":"0.11"},{"name":"inmome","team":"Team A","agents":["vyse","clove"],"rounds":37,"rating":"1.22","acs":178,"k":24,"d":26,"a":9,"kd":"0.92","kast":81,"adr":114,"hs":29,"kpr":"0.65","apr":"0.24","fkpr":"0.05","fdpr":"0.14"},{"name":"闲鱼万条","team":"Team A","agents":["brimstone","veto"],"rounds":37,"rating":"1.16","acs":168,"k":22,"d":24,"a":18,"kd":"0.92","kast":86,"adr":112,"hs":14,"kpr":"0.59","apr":"0.49","fkpr":"0.05","fdpr":"0.22"},{"name":"海上花","team":"Team A","agents":["fade","sova"],"rounds":37,"rating":"1.04","acs":142,"k":19,"d":20,"a":19,"kd":"0.95","kast":81,"adr":97,"hs":17,"kpr":"0.51","apr":"0.51","fkpr":"0.03","fdpr":"0.03"},{"name":"我们会分开","team":"Team B","agents":["brimstone","sova"],"rounds":37,"rating":"0.85","acs":113,"k":13,"d":32,"a":13,"kd":"0.41","kast":75,"adr":68,"hs":16,"kpr":"0.35","apr":"0.35","fkpr":"0.03","fdpr":"0.08"}];
-        let sortState = { key: 'rating', dir: 'desc' };
+        const playersData = [{"name":"柳木诗梦是天","team":"Team A (Blue)","agents":["fade","breach","sova","chamber","phoenix","clove","reyna"],"rounds":225,"rating":"1.78","acs":288,"k":229,"d":145,"a":62,"kd":"1.58","kast":0,"adr":188,"hs":18,"kpr":"1.02","apr":"0.28","fkpr":"0.08","fdpr":"0.00"},{"name":"anorak","team":"Team A (Blue)","agents":["reyna","sage","clove","iso","yoru","deadlock","chamber","jett","viper","neon","breach"],"rounds":550,"rating":"1.63","acs":258,"k":510,"d":379,"a":101,"kd":"1.35","kast":0,"adr":167,"hs":23,"kpr":"0.93","apr":"0.18","fkpr":"0.10","fdpr":"0.00"},{"name":"天马609魏豪","team":"Team A (Blue)","agents":["vyse","skye"],"rounds":60,"rating":"1.55","acs":243,"k":50,"d":43,"a":13,"kd":"1.16","kast":0,"adr":169,"hs":32,"kpr":"0.83","apr":"0.22","fkpr":"0.03","fdpr":"0.00"},{"name":"求求别马枪了","team":"Team A (Blue)","agents":["fade","chamber","reyna","sova"],"rounds":142,"rating":"1.55","acs":244,"k":121,"d":100,"a":27,"kd":"1.21","kast":0,"adr":158,"hs":22,"kpr":"0.85","apr":"0.19","fkpr":"0.10","fdpr":"0.00"},{"name":"伊吹大西瓜","team":"Team A (Blue)","agents":["fade","yoru","cypher","jett","waylay","viper","killjoy"],"rounds":274,"rating":"1.48","acs":235,"k":217,"d":206,"a":53,"kd":"1.05","kast":0,"adr":149,"hs":21,"kpr":"0.79","apr":"0.19","fkpr":"0.14","fdpr":"0.00"},{"name":"OranCity","team":"Team A (Blue)","agents":["cypher","neon","sova","breach","brimstone","iso","reyna","astra","viper"],"rounds":393,"rating":"1.47","acs":230,"k":310,"d":286,"a":83,"kd":"1.08","kast":0,"adr":148,"hs":27,"kpr":"0.79","apr":"0.21","fkpr":"0.14","fdpr":"0.00"},{"name":"下等马分界线","team":"Team A (Blue)","agents":["jett","reyna","fade","viper","neon","cypher","phoenix","chamber","sova","raze","kayo","gekko","sage","killjoy"],"rounds":543,"rating":"1.36","acs":208,"k":387,"d":410,"a":106,"kd":"0.94","kast":0,"adr":138,"hs":22,"kpr":"0.71","apr":"0.20","fkpr":"0.10","fdpr":"0.00"},{"name":"City","team":"Team A (Blue)","agents":["jett","sova","waylay","omen","brimstone","astra"],"rounds":436,"rating":"1.30","acs":198,"k":284,"d":339,"a":111,"kd":"0.84","kast":0,"adr":136,"hs":20,"kpr":"0.65","apr":"0.25","fkpr":"0.09","fdpr":"0.00"},{"name":"HugeCity","team":"Team A (Blue)","agents":["astra","omen","viper","cypher","harbor","brimstone","sova","waylay","deadlock","killjoy","yoru"],"rounds":901,"rating":"1.19","acs":176,"k":542,"d":658,"a":265,"kd":"0.82","kast":0,"adr":113,"hs":15,"kpr":"0.60","apr":"0.29","fkpr":"0.07","fdpr":"0.00"},{"name":"Vans","team":"Team B (Red)","agents":["vyse","veto","jett"],"rounds":62,"rating":"1.07","acs":149,"k":32,"d":37,"a":7,"kd":"0.86","kast":0,"adr":97,"hs":20,"kpr":"0.52","apr":"0.11","fkpr":"0.06","fdpr":"0.00"},{"name":"人机编号9527","team":"Team A (Blue)","agents":["sage","iso","neon","sova","fade","skye"],"rounds":276,"rating":"0.86","acs":114,"k":99,"d":232,"a":73,"kd":"0.43","kast":0,"adr":70,"hs":11,"kpr":"0.36","apr":"0.26","fkpr":"0.03","fdpr":"0.00"}];
         
+        // Initial Column Order
+        let columns = [
+            'name', 'agents', 'rounds', 'rating', 'acs', 
+            'k', 'd', 'a', 'kd', 'kast', 
+            'adr', 'kpr', 'apr', 'fkpr', 'fdpr', 'hs'
+        ];
+        
+        // Sorting State
+        let sortState = { key: 'rating', dir: 'desc' };
+
+        // Heatmap Config
         const heatMapCols = {
             'rating': { min: 0, max: 0 },
             'acs':    { min: 0, max: 0 },
+            'k':      { min: 0, max: 0 },
+            'd':      { min: 0, max: 0, isReverse: true },
+            'a':      { min: 0, max: 0 },
             'kd':     { min: 0, max: 0 },
             'kast':   { min: 0, max: 0 },
             'adr':    { min: 0, max: 0 },
@@ -95,15 +131,14 @@
             let ratio = (value - config.min) / (config.max - config.min);
             if (config.isReverse) ratio = 1 - ratio;
 
-            // Define Anchors: [Ratio, [R, G, B]]
-            // 1.0: #C2ACDF (Highest/Purple) -> 0.0: #DAADC6 (Lowest/Pink-Red)
+            // Simplified Gradient Logic
             const anchors = [
-                [1.0, [194, 172, 223]], // #C2ACDF (Purple)
-                [0.8, [173, 216, 230]], // Pastel Blue
-                [0.6, [180, 238, 180]], // Pastel Green
-                [0.4, [255, 255, 180]], // Pastel Yellow
-                [0.2, [255, 218, 185]], // Pastel Orange
-                [0.0, [218, 173, 198]]  // #DAADC6 (Pink/Red)
+                [1.0, [194, 172, 223]],
+                [0.8, [173, 216, 230]],
+                [0.6, [180, 238, 180]],
+                [0.4, [255, 255, 180]],
+                [0.2, [255, 218, 185]],
+                [0.0, [218, 173, 198]]
             ];
 
             let r, g, b;
@@ -119,11 +154,10 @@
                     break;
                 }
             }
-
             return `style="background-color: rgb(${r}, ${g}, ${b});"`;
         }
 
-        function sortTable(key) {
+        function sortData(key) {
             if (sortState.key === key) {
                 sortState.dir = sortState.dir === 'desc' ? 'asc' : 'desc';
             } else {
@@ -131,59 +165,153 @@
                 sortState.dir = 'desc';
             }
             const dir = sortState.dir === 'desc' ? 1 : -1;
+            
             playersData.sort((a, b) => {
                 let valA = parseFloat(a[key]) || 0;
                 let valB = parseFloat(b[key]) || 0;
+                
+                // Agents and Name are special cases for sorting
                 if (key === 'name') return a.name.localeCompare(b.name) * dir;
+                if (key === 'agents') return (b.agents.length - a.agents.length) * dir; // Sort by agent count
+                
                 return (valB - valA) * dir;
             });
             renderTable();
-            updateHeaderIcons(key);
-        }
-
-        function updateHeaderIcons(activeKey) {
-            const arrow = sortState.dir === 'desc' ? '▼' : '▲';
-            document.querySelectorAll('th').forEach(th => {
-                const text = th.innerText.replace(/[▼▲]/g, '').trim();
-                th.innerText = text;
-                if (th.getAttribute('onclick').includes(`'${activeKey}'`)) {
-                    th.innerText = text + ' ' + arrow;
-                }
-            });
         }
 
         function renderTable() {
             const tbody = document.getElementById('tableBody');
+            const theadRow = document.getElementById('headerRow');
+            
+            // Re-render Headers in correct order
+            theadRow.innerHTML = '';
+            columns.forEach(colKey => {
+                const th = document.createElement('th');
+                th.draggable = true;
+                th.dataset.key = colKey;
+                th.innerText = colKey.toUpperCase();
+                th.onclick = () => sortData(colKey);
+                
+                // Add Arrow
+                if (sortState.key === colKey) {
+                    th.innerText += sortState.dir === 'desc' ? ' ▼' : ' ▲';
+                }
+
+                // Add Drag Events
+                addHeaderDragEvents(th);
+                
+                // Add Specific Classes
+                if(colKey === 'name') th.className = 'cell-player';
+                if(colKey === 'agents') th.className = 'cell-agents';
+                
+                theadRow.appendChild(th);
+            });
+
+            // Re-render Body
             let html = '';
             playersData.forEach(p => {
-                const agentsHtml = p.agents.map(a => `<img src="img/agents/${a}.png" class="w-5 h-5 inline-block" title="${a}">`).join(' ');
-                
-                html += `<tr>
-                    <td class="cell-player">
-                        <div class="flex flex-col">
-                            <a href="players/${p.name}.html" class="text-blue-600 font-bold hover:underline">${p.name}</a>
-                            <span class="cell-team">${p.team}</span>
-                        </div>
-                    </td>
-                    <td class="cell-agents">${agentsHtml}</td>
-                    <td>${p.rounds}</td>
-                    <td class="font-bold" ${getColorStyle('rating', p.rating)}>${p.rating}</td>
-                    <td ${getColorStyle('acs', p.acs)}>${p.acs}</td>
-                    <td ${getColorStyle('kd', p.kd)}>${p.kd}</td>
-                    <td ${getColorStyle('kast', p.kast)}>${p.kast}%</td>
-                    <td ${getColorStyle('adr', p.adr)}>${p.adr}</td>
-                    <td ${getColorStyle('kpr', p.kpr)}>${p.kpr}</td>
-                    <td ${getColorStyle('apr', p.apr)}>${p.apr}</td>
-                    <td ${getColorStyle('fkpr', p.fkpr)}>${p.fkpr}</td>
-                    <td ${getColorStyle('fdpr', p.fdpr)}>${p.fdpr}</td>
-                    <td ${getColorStyle('hs', p.hs)}>${p.hs}%</td>
-                </tr>`;
+                html += '<tr>';
+                columns.forEach(colKey => {
+                    let cellContent = '';
+                    let cellStyle = '';
+                    let cellClass = '';
+
+                    if (colKey === 'name') {
+                        cellContent = `
+                            <div>
+                                <a href="players/${p.name}.html" class="text-blue-600 font-bold hover:underline">${p.name}</a>
+                                <span class="cell-team">${p.team}</span>
+                            </div>`;
+                        cellClass = 'cell-player';
+                    } else if (colKey === 'agents') {
+                        const agentsHtml = p.agents.map(a => `<img src="img/agents/${a}.png" class="agent-icon" title="${a}">`).join('');
+                        cellContent = `<div class="agent-container">${agentsHtml}</div>`;
+                        cellClass = 'cell-agents';
+                    } else {
+                        // Stat Cell
+                        const val = p[colKey];
+                        // Apply suffixes if needed (HS%, KAST%)
+                        const displayVal = (colKey === 'kast' || colKey === 'hs') ? val + '%' : val;
+                        // Apply Colors
+                        cellStyle = getColorStyle(colKey, val);
+                        cellContent = displayVal;
+                        // Bold specific stats
+                        if (['rating', 'k', 'kd'].includes(colKey)) {
+                            cellContent = `<b>${displayVal}</b>`;
+                        }
+                    }
+
+                    html += `<td class="${cellClass}" ${cellStyle}>${cellContent}</td>`;
+                });
+                html += '</tr>';
             });
             tbody.innerHTML = html;
         }
-        
+
+        // --- Column Drag Logic ---
+        let dragSrcCol = null;
+
+        function addHeaderDragEvents(th) {
+            th.addEventListener('dragstart', handleHeaderDragStart);
+            th.addEventListener('dragenter', handleHeaderDragEnter);
+            th.addEventListener('dragover', handleHeaderDragOver);
+            th.addEventListener('dragleave', handleHeaderDragLeave);
+            th.addEventListener('drop', handleHeaderDrop);
+            th.addEventListener('dragend', handleHeaderDragEnd);
+        }
+
+        function handleHeaderDragStart(e) {
+            this.classList.add('dragging');
+            dragSrcCol = this.dataset.key;
+            e.dataTransfer.effectAllowed = 'move';
+        }
+
+        function handleHeaderDragOver(e) {
+            if (e.preventDefault) e.preventDefault();
+            e.dataTransfer.dropEffect = 'move';
+            return false;
+        }
+
+        function handleHeaderDragEnter(e) {
+            if (this.dataset.key !== dragSrcCol) {
+                this.classList.add('drag-over');
+            }
+        }
+
+        function handleHeaderDragLeave(e) {
+            this.classList.remove('drag-over');
+        }
+
+        function handleHeaderDrop(e) {
+            if (e.stopPropagation) e.stopPropagation();
+            this.classList.remove('drag-over');
+            
+            const targetCol = this.dataset.key;
+
+            if (dragSrcCol !== targetCol) {
+                // Reorder 'columns' array
+                const srcIdx = columns.indexOf(dragSrcCol);
+                const targetIdx = columns.indexOf(targetCol);
+
+                if (srcIdx > -1 && targetIdx > -1) {
+                    // Remove src
+                    columns.splice(srcIdx, 1);
+                    // Insert at target
+                    columns.splice(targetIdx, 0, dragSrcCol);
+                    
+                    renderTable(); // Re-render table with new column order
+                }
+            }
+            return false;
+        }
+
+        function handleHeaderDragEnd(e) {
+            this.classList.remove('dragging');
+            document.querySelectorAll('th').forEach(th => th.classList.remove('drag-over'));
+        }
+
         initStats();
-        sortTable('rating');
+        renderTable(); // Initial Render
     </script>
 </body>
 </html>

@@ -1,0 +1,280 @@
+{
+  "map": "Bind",
+  "map_pick": "Unknown",
+  "teams": [
+    {
+      "team_name": "Team A (Blue)",
+      "score": 13,
+      "players": [
+        {
+          "name": "下等马分界线",
+          "nationality": "cn",
+          "agents": [
+            "fade"
+          ],
+          "stats": {
+            "rating": 1.04,
+            "acs": 319,
+            "k": 25,
+            "d": 18,
+            "a": 11,
+            "diff": 7,
+            "kast": "0%",
+            "adr": 204,
+            "hs_percent": "14%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "OranCity",
+          "nationality": "cn",
+          "agents": [
+            "cypher"
+          ],
+          "stats": {
+            "rating": 0.64,
+            "acs": 186,
+            "k": 17,
+            "d": 17,
+            "a": 2,
+            "diff": 0,
+            "kast": "0%",
+            "adr": 122,
+            "hs_percent": "20%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "HugeCity",
+          "nationality": "cn",
+          "agents": [
+            "waylay"
+          ],
+          "stats": {
+            "rating": 0.54,
+            "acs": 161,
+            "k": 13,
+            "d": 19,
+            "a": 5,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 110,
+            "hs_percent": "9%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "人机编号9527",
+          "nationality": "cn",
+          "agents": [
+            "iso"
+          ],
+          "stats": {
+            "rating": 0.54,
+            "acs": 170,
+            "k": 14,
+            "d": 20,
+            "a": 3,
+            "diff": -6,
+            "kast": "0%",
+            "adr": 104,
+            "hs_percent": "11%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "City",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.46,
+            "acs": 140,
+            "k": 11,
+            "d": 18,
+            "a": 8,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 90,
+            "hs_percent": "15%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "team_name": "Team B (Red)",
+      "score": 11,
+      "players": [
+        {
+          "name": "胡桃爱幻想",
+          "nationality": "cn",
+          "agents": [
+            "jett"
+          ],
+          "stats": {
+            "rating": 1.03,
+            "acs": 300,
+            "k": 27,
+            "d": 16,
+            "a": 3,
+            "diff": 11,
+            "kast": "0%",
+            "adr": 185,
+            "hs_percent": "18%",
+            "fk": 4,
+            "fd": 0,
+            "fkfd_diff": 4
+          }
+        },
+        {
+          "name": "Mon3tr",
+          "nationality": "cn",
+          "agents": [
+            "brimstone"
+          ],
+          "stats": {
+            "rating": 0.85,
+            "acs": 259,
+            "k": 22,
+            "d": 17,
+            "a": 8,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 154,
+            "hs_percent": "22%",
+            "fk": 1,
+            "fd": 0,
+            "fkfd_diff": 1
+          }
+        },
+        {
+          "name": "xixi",
+          "nationality": "cn",
+          "agents": [
+            "kayo"
+          ],
+          "stats": {
+            "rating": 0.76,
+            "acs": 211,
+            "k": 18,
+            "d": 13,
+            "a": 6,
+            "diff": 5,
+            "kast": "0%",
+            "adr": 132,
+            "hs_percent": "13%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        },
+        {
+          "name": "QiuKu",
+          "nationality": "cn",
+          "agents": [
+            "chamber"
+          ],
+          "stats": {
+            "rating": 0.58,
+            "acs": 171,
+            "k": 15,
+            "d": 17,
+            "a": 3,
+            "diff": -2,
+            "kast": "0%",
+            "adr": 108,
+            "hs_percent": "15%",
+            "fk": 3,
+            "fd": 0,
+            "fkfd_diff": 3
+          }
+        },
+        {
+          "name": "无敌大善人",
+          "nationality": "cn",
+          "agents": [
+            "phoenix"
+          ],
+          "stats": {
+            "rating": 0.48,
+            "acs": 138,
+            "k": 10,
+            "d": 17,
+            "a": 6,
+            "diff": -7,
+            "kast": "0%",
+            "adr": 103,
+            "hs_percent": "15%",
+            "fk": 2,
+            "fd": 0,
+            "fkfd_diff": 2
+          }
+        }
+      ],
+      "round_history": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ]
+}
